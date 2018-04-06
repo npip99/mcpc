@@ -1,0 +1,1743 @@
+2014-11-12 06:19:41 [INFO] [ForgeModLoader] Forge Mod Loader version 4.7.35.556 for Minecraft 1.4.7 loading
+2014-11-12 06:19:41 [INFO] [STDOUT] Bukkitforge call to getASMTransformer ...
+2014-11-12 06:19:41 [INFO] [STDOUT] Bukkitforge call to getASMTransformer ...
+2014-11-12 06:19:41 [INFO] [STDOUT] Adding Accesstransformer map: bukkit_at.cfg
+2014-11-12 06:19:41 [INFO] [ForgeModLoader] Found valid fingerprint for Minecraft Forge. Certificate fingerprint de4cf8a3f3bc15635810044c39240bf96804ea7d
+2014-11-12 06:19:41 [INFO] [STDOUT] Adding Accesstransformer map: codechickencore_at.cfg
+2014-11-12 06:19:41 [INFO] [STDOUT] Adding AccessTransformer: chickenchunks_at.cfg
+2014-11-12 06:19:41 [INFO] [STDOUT] Adding Accesstransformer map: temp.dat
+2014-11-12 06:19:41 [INFO] [STDOUT] Transforming gm using keepcalm.mods.bukkit.asm.replacements.ServerConfigurationManager_BukkitForge !test!
+2014-11-12 06:19:41 [INFO] [STDOUT] Class Transformation running on ItemInWorldManager...
+2014-11-12 06:19:41 [INFO] [STDOUT] Found target method d(III)Z! Searching for landmarks...
+2014-11-12 06:19:41 [INFO] [STDOUT] Found Block object ASTORE Node at 10
+2014-11-12 06:19:41 [INFO] [STDOUT] Block object is in local object 4
+2014-11-12 06:19:41 [INFO] [STDOUT] Found metadata local variable ISTORE Node at 19
+2014-11-12 06:19:41 [INFO] [STDOUT] Metadata is in local variable 5
+2014-11-12 06:19:41 [INFO] [STDOUT] Found IFNULL Node at 23
+2014-11-12 06:19:41 [INFO] [STDOUT] Found ALOAD Node at offset 3 from IFNULL Node
+2014-11-12 06:19:41 [INFO] [STDOUT] Patching method ir/d(III)Z...
+2014-11-12 06:19:41 [INFO] [STDOUT] Method ir/d(III)Z at index 25
+2014-11-12 06:19:41 [INFO] [STDOUT] Patching Complete!
+2014-11-12 06:19:41 [INFO] [STDOUT] Found target for ItemInWorldManager transformation: a()V! Searching for landmarks...
+2014-11-12 06:19:41 [INFO] [STDOUT] Found landmark: RETURN, searching for previous landmark...
+2014-11-12 06:19:41 [INFO] [STDOUT] Found IF_ICMPEQ at index 227 to R, which is at 251. Inserting function call after this...
+2014-11-12 06:19:41 [INFO] [STDOUT] Will insert code at: 228
+2014-11-12 06:19:41 [INFO] [STDOUT] Using desc: (Lir;)V
+2014-11-12 06:19:41 [INFO] [STDOUT] Finished compiling instruction nodes, inserting new instructions... at 228
+2014-11-12 06:19:41 [INFO] [STDOUT] Finished patching ItemInWorldManager! The game will now continue!
+2014-11-12 06:19:41 [INFO] [STDOUT] Found global block break call: a(Lyc;IIIII)V
+2014-11-12 06:19:41 [INFO] [STDOUT] Inserted instructions!
+2014-11-12 06:19:41 [INFO] [STDOUT] Found target method: n(Lyc;III)V! Looking for landmark...
+2014-11-12 06:19:41 [INFO] [STDOUT] Found insertion point - GETSTATIC followed by IF_ACMPEQ!
+2014-11-12 06:19:41 [INFO] [STDOUT] Does bb equal null?
+2014-11-12 06:19:41 [INFO] [STDOUT] Found landmark! Inserting code...
+2014-11-12 06:19:41 [INFO] [STDOUT] Instructions have been compiled, adding to bytecode...
+2014-11-12 06:19:41 [INFO] [STDOUT] Finished patching BlockDispenser!
+2014-11-12 06:19:42 [INFO] [STDOUT] Transforming up...
+2014-11-12 06:19:42 [INFO] [STDOUT] Inspecting 74 methods...
+2014-11-12 06:19:42 [INFO] [STDOUT] Found matching constructor method in Item: <init>(I)V!
+2014-11-12 06:19:42 [INFO] [STDOUT] Finished patching item-register method into BukkitForge!
+2014-11-12 06:19:42 [INFO] [STDOUT] Manifest-Version=> 1.0
+2014-11-12 06:19:42 [INFO] [STDOUT] Ant-Version=> Apache Ant 1.8.2
+2014-11-12 06:19:42 [INFO] [STDOUT] Class-Path=> minecraft_server.jar
+2014-11-12 06:19:42 [INFO] [STDOUT] Created-By=> 1.7.0_09-b30 (Oracle Corporation)
+2014-11-12 06:19:42 [INFO] [STDOUT] Main-Class=> net.minecraft.server.MinecraftServer
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/modloader/ModLoaderBlockRendererHandler.clas
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> aSm2jjfngwo58A9N5pr1Tr2ivMYnjB4Utd1+u/NPFOc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/DefaultArtifactVersion.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> s5HyU2sWnlFvKSFy7Bq+222iiA0VLKlHPw/+TBqWYB0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/FMLSanityChecker.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> NDSyQ4Ano0XbQRvngYaHUC4LT4wsrAqH51oFrOAhJ3w=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/DirectoryDiscoverer$ClassFilter.cl
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> gTb6qsP1ic0BhXOOzPwwoA4RRwZ5p2MOPnTASxF6Gk0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/OreGenEvent$Post.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> EY9c5JrLPJofp8FaqmbnPeIO7mgX9eOz04mlUVFAqLs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/SideTransformer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 1VvucXMOaoH5jIKrMFI9tPjIpAFQGtTPAV0zZ0x1lRw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/functions/ModNameFunction.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> oQ8TkK29396WFCQpF/Qy5vSl9QvoYBBzEGyYlis8uVc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/LoadController.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Mp3faJhyz4wvCHYVXNq0NJdgSjLV4NyUUbhq7ahme4M=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/IItemRenderer$ItemRenderType.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ovCxIvatnk43zN8DPAuCRYQbajTxl16yVZwuRucevGc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/TextureLoadEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> AJ9Lzg4YwvGlqdnLvxd6NAqIMwR/11ACSFp9FI1MtsU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidEvent$LiquidDrainingEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> n+FeKeB7Qu1KZsvNdfrLMmvjcsCXuqWcDDoUwjyvesQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/EntityEvent$CanUpdate.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> TaKr/3Y7x1Fn7Mk1+BD6OwKG3LI0h6umYHRKPr1jwqk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/IFMLCallHook.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> HW0cpiDitRkYNpNZETNxVY4lziqcxuHSYvBcB0H11ns=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/EntitySpawnAdjustmentPacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> EpXEzlnG2zrlCVQMP3eZLRusW+XzP8b1C5Qd6ozFO2U=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/OverrideInfo.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> CUC3Ulm76JdLUmWm2czxjLg5zHDLWET/6ReZ12phqaU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/ArrowLooseEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 6eAitBiflulyl/p7lM9nxKdKVBhmeKZG6lXuvULs5ZA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/ChunkProviderEvent$ReplaceBi
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> cW5oJah3x51NVJW4NnX5dnf/BaDII7gsGz3iBb8LWe0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/ModIdMapPacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> vxL5EgfX5CoWbSghg5HjhpuEDxbIUVI7ltQMpmppi3E=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/toposort/ModSorter.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> u8bTJ9778BKLLG43+yUZz/L4UmVQzgM+YNEzxx4vOec=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/TextureFXManager.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ldIVZslcj+aoUmxDopIdeez1aVKTyEW0X8phO3hZs8I=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeChunkManager$Ticket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> gvuILVZYLVAlqbyHPKGVbwM7icfI58B9fHI0INw6pLU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/ForgeHooksClient$TesKey.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> vexQ6jFgsYXOFkxVaON1bRSJb0tmgzGCvxJ97p2mVuA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/SoundLoadEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> aXqlxqNAYr6c7NdhkLINT5+GJ7cNtfM5uNAl+5bWnFU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/CommandEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> uSioA2EmRHw4x6YfUlc0+ED4ABYobUU88pkpc24zaQM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/MinecraftDummyContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> a8xO+1Sj8k6PgDCslFn1DgpJ1BltRosUQQ+IH/R4uHI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLLoadEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Ye2n7tWFcA8WSOWUlY86eYHsElzhe+aXp4xR9pyId6w=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/GameData$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> H5IXIcemg3ODIyoDW8B7toeqQZl2wTb87ijdPSzO8Oo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/ComparableVersion$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> r5pINcYFM/6fVFhWUD44ecekKCuEKoAl+aTQftGNGdw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/WorldTypeEvent$BiomeSize.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Ih292a04xyuBSOXK8HkmEscZPFjLAXHyuI1e5ZUZttk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/VillagerRegistry$IVillageCreationHa
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> zDpE0LN+l6tntgmyHz9TmQRZFPiyJY+f+TPIn2+gBmg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$IMCCallback.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 8KodJeQD9+J/PBTVJF6+9ToJdnfX6R8tf5XFxRLax4k=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$ServerStopping.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> r2TxZ67Z6/VBlt+Yi/4CyXiF/OrwDyqslQ5EzJbqeIQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLInjectionData.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> YsgxcyOSjB2UynpBpfyIDy5me2nHpXSXeOR1zVln4po=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/asm/ModAnnotation.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hHwAxjFD+YFdzfdHxg7yNnt1lu+u4qySZqmGJEE3r9M=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/asm/ASMModParser$AnnotationType.cl
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> BovKydItGh3VcBLldkHbqZl1MWggxZgy2f88vOaFJPQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLServerStartingEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ZY3rcRKwayNXY9riVkMw8WgzINnSS9+8KqYRsRVFI9U=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IDispenserHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> vMhQyGSSuMx1IeqOvj26aRh4H/+/238+mXfhvoiM+TE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/PopulateChunkEvent$Populate.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> IshTK9CF5bPsIsptY17oiKUhngSNM1PSywbpyXHnQys=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiModList.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> dTCrR279HV+peoaNu+kpZN5VRhLwv4Q3tlE5yv3BflY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLServerStoppedEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /myOw5JEE+DO0qmvbcdi/y+6KToIYQ6wmoGnSwCFYKI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IFuelHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 31a93DwWh+ggWu9auoNHYQb1yyFMGZdpLMXmQNYd81o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/transformers/ForgeAccessTransformer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> glrDnzmvvs7TxnSUPnBSSvnkunbo6sWMnbaEQZ2S2ts=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/ITankContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 2xhgbk8uFgn7n9BST3YdQ0Li3ruOxBvV3iBEnCZZ3+c=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/DecorateBiomeEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> AyNtagIxyDWa0lKFyy3GlRDIqoQFL7+ZsutjbTxWbKk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderConnectionHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> v6mFRa/buJCsHpvBogCoVzSf7a4raPIFK0BWk4AFjR4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiSlotModList.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> OynRK/u5gsKG4xTuoqB38Fsv45rUCwcj5YNBc9Wmxy8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkWatchEvent$Watch.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xlfjLfskxEGbUIuZ78galOtANij5CsGJhxkGV44FYvs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/WorldEvent$Unload.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 3C5Rq14tAP2ZuldQDED/BoiXAB2OxoqooiQK12l3qdo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/FMLPacket$Type.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> RBCVkoJtawBVfWJOBTsEnKgaOk+JEHZpVFNoBf2B2Js=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ModMetadata$JsonStringConverter.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> HQc01v0XkvTOYJGInKxpCbg+vKmSWmAMu8QcUr8lZ6g=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/FMLModContainer$2.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> YE1CXclT+J6iZysmDbWX1dP4SZit6WYnWmDnuGuj2wc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderChatListener.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> QkGVwZgpx5pY7XKZZjKlKzHt3SIUef+xdd+lOlSAWg8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$Init.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UjnYgDDfBoXgF0n58ZcgCFM/UyeWLiFnSvby2fnpIU4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/WorldTypeEvent$InitBiomeGens
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> oV20OM45EM3G2fz96eu8LeUb2KdIeLdS02Lh3C4wQdU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/DecorateBiomeEvent$Post.clas
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> j0kLudsh6G9a53Sp8niRddnpQyE2jAEq2nYafxiqAz8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/DecorateBiomeEvent$Decorate.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xz8+bZpDZnaDNnrK2fbUrMy3RG1lYjh4QWksQBn+qHA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ModMetadata.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> IGnF44yEpie7nsao0sYM6KFEi6bKgV8I7R6ipEbvnwA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkDataEvent$Save.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UcpiwZk399w9k0T3Ax4UZ71FmrZdh7D9o33iWDs83x4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IDispenseHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> N2H/ZgQZOxwzDDvz8LphaRuDCrq72yU38I6bq/R2NeI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/MarkerTransformer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> jy/nhOUXB/l3z15JjpnOySoQ55CDGvnvSp+f8y+Prdw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkDataEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> n1OuNQ0a2h8ciLkHejJ2JmUB8UJ+xmpklAFOODhHFpY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Loader.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 6F1fY5ssZbOLl1pZ28+Gt9WGVs7oElDFWjNBmD8pUmA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/PlayerDropsEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> gK2xqn4uu5p5JX8aEBxROjuaQxTwREglSo8NtC5DEms=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/ModMissingPacket$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> CtA+RBMt0rkKJKLKnx21xDHM+H7lebG+nfklVjCaD58=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLInterModComms$IMCMessage.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> fWKzGxlpQ2suxiWRQqAl9Q1FInw5h7ECsCYyMrbYNeQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/ChunkProviderEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Jeh6Ko+Dr5S+5Jyg1KZvu9DUcRSe95npvqSP/6yOy/E=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/WorldEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 87vDx0PRsT2k22WPNtCwbUOEh2mJQIz0op4EIUi610o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$FingerprintWarning.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> IvYl9UL5FXyBemc6Z52v7Ka+fzwWEUFkhm4RKN7qDBc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/EntityJoinWorldEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> RaFgVfMVaZHEh5NiJqe/cBppUG6pDffGRAwv555Jar8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/MCPDummyContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> X+Zl1TrqO9ZgGcAIcrirDtYj5SXUD2F56UkRdXWJqH4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/ComparableVersion$Item.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> tt+lTK775s0F6BhGuIjIyYbdejO9ci16y/lYpQNcYA8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/TickType.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 9e1T5XjlOrTGNmtB8b/KAwhrCJ7coLkzNQJRinfibdY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/PopulateChunkEvent$Populate$
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> QnUnTsqloge69X6KJnr7wkSwhyhTsL/WV1jAvSERGsw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/ILiquid.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> iJZoiUqy7+xX6hu/3WCLy+IcnZgqvzqvWRD2Qd7JoNw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/ReflectionHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ohKt1rukcewBw2jTOhiZFpMj4jOuiBHwf+FNH9H4MyA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/MissingModsException.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 3uC1wBrSjai+qZl6hs7xfDZ2jRhuzRp+q6D9PdBwhlA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/EntityRegistry$EntityRegistration.c
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> GGnPNIQ7UQ9sBWkj6D4vr58t5c1PLSlUvtXW0h7n/BU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/ModIdentifiersPacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> JZdgKnL4Q2ryTSD6HiCghzig+4MRE7RF6BwbKYd7N1k=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/InitMapGenEvent$EventType.cl
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hp0nYxcfRvYXFaOsgy1B0HdTC+wtI8XVL1edZLxCgKg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidEvent$LiquidMotionEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> dEMDmk/+HgTJUxcJ0By7tUqqzzgHl6cXiwbp4bUmTho=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent$GetVillageBlockMe
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> lg9zW6McbZAt32GAhpEPzR1Cbvfvs0rgL5AbQOXmRZo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/asm/ASMModParser.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 9/vKc5nZDzusjhXjGDv9/a3AUnOjcNjkxruCpuLhQdg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ISidedInventory.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> bOW5KxJFunLfBkOnhk5T564L69opUj9mW8YCSD5eyHo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/EnumHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> SFPNWSqAUyEE9Qaft3AyA9tBuJFR5iaB1YX73xthOpc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IFMLHandledException.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> dwsouDTEjwodM9drLHii0CDHzDDZYX3Odm52lH61scg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/Player.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> U39MlRW1ibdrLcoQpnD74SUBKc4Ocf0vjr7PkAJ/xJc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/ContainerType.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> wi/65rgCaHjtbI5SzSFDKqnTPyU+VuR8DuATazScCkw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ProxyInjector.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> M/M36bsxvx72sYMgUVZzCAUmgOMI8BGmlg+hcx8LC6I=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IConsoleHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 93lZAtDu17cJizY587kFy6rNnx20mNeo6rYoPj+IiWA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/BlockProxy.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> g+gnGUfsN1QPLqDMmq43raugE36MTe/h8dX9xMU+0IM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLLogFormatter.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> rm7F+QybixZB8rjN73ifd8JdGPcdRDDiSN4sn3docK0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderGuiHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> d7vinL8QTkTdovg2MWnkhOqjx4r771dawtwZ5/2om68=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$Block.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> GhVZk0qVYdfUHMoMTG39SdWKo5wWycGfWtu1hL//8oE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingDropsEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> sA5N5XHqWecYDbFn/b8KcauXVvE4EWH/Ooqha1pYWXc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/EntityEvent$EnteringChunk.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> SXRE93lZJePFHwSmePH2UeeKWGpYRxidfijAFWrWRVI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/BlockTracker.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> v5l5ipgBUX9b3+ecepux1CqPrJ1biSeijuKPBG5+ixo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModProperty.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> QUsTJTDLI96Tsb+bLDe5s9/sS/C60Phvz7TUD7dpwBo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/ComparableVersion.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 3EgaSNqq5aPd8g8WF2/BX0dGpELr8/foTiBZk5mEV3w=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ASMEventHandler$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> JDlWe9dB/PXUbSobebUvxo0iBTo1QYkyhD3oGSNLycc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/PlayerSleepInBedEvent.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> g7RarO9ZgXNa3OrcXJN9LlsWLG8cOMcT3M0Im9/EdL8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/Event$HasResult.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> V7L1JNMLtTFmrxJhQ56elWjGapXeIvwNRqjHam4sJ+I=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiModsMissingForServer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> iYX7AaGA8UnaqlzTnKneZG1AiCNfB8tEoJhU7yKf70U=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/ILiquidTank.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> sj6RPuyau/whfV6ClK1hJGvQ+YOV54Gwf4O4AbmG7GU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/toposort/TopologicalSort$DirectedGraph.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> SgER2fQuuAF42z4SWoYQ1aJOef1MP3YzFoPruLE+7oQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/NetworkRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hHEHI95UhIaHUE2eJzwvp8B+e/b8MYIqlg8O0VDDBa4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/ClientChatReceivedEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mGJdZ5rjkuaMWbpKlOC65anDD7lBxQSWXJC0LNtjzjI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkDataEvent$Load.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> OU/d888GZ1ovMActHdMqErRf/FBpxZ9XJV9xuEl5Paw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/MCPMerger.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> fB683AX9NIrPe2PjJy8tlk3+sfOCVozB6rJIR/9pk5Q=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLServerStoppingEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> PxjcGRYJL7BpzjaOUVLFkiXqkDQTyHybhp8KL8u55jY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkEvent$Load.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> XJ7nTy61WIpXz3EKVylX/sR8M1W5j6F4tdXat0x3BQI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Loader$2.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> nUuf55LPyx+jXIKgMEE82iZsskm4hP47oBf2zDmbU/c=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$PreInit.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ibbiUErcCqB9TJ9N6bXtpP8FCLd4rlA1XAknJmax+1E=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/AchievementPage.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xhksK0UIG2OuhehlCk5ZS6z7+LCExsImSGmgvrdXGP8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidDictionary.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> wO0aWtxk8dOp3rPYccGploiYNYcP62Aea8k1XFlFlC4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeChunkManager$PlayerOrderedLoading
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> bFXhsS8qi1pXQ847lQ308WBlLhJ8elNcFd3RJtsDuRk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/IFMLLoadingPlugin$TransformerExclusions.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ybaqYF1FVQ2sQWbn2Mzz28E9Ox7Bd64uQJN1WIC0UXw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/minecart/MinecartUpdateEvent.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> BlLV7BhpgXMA+GhmhZeC72+cgXxg1VrSR2tQ8m7nI04=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeHooks$SeedEntry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> kOrepFpQ/D9mKB9x6mGdGSjQ3rPj45BwKsTnhxBS0Zc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/FMLClientHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 25zjRGdwX2k+zRGkciG2lTigtILSTYZKucrCVUI7xpo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/WrongMinecraftVersionException.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> csqwMrfeIF9S7CgRQIt5IR5dONbxd3UmNGBqtoe+fFA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/MinecartRegistry$MinecartKey.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 9rq8qUtohj+nFC5h3wSv874ezF+eZbw+cjd0EWs4wHM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent$GetWaterColor.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 76wDIpYRGvM3sx+CSosOl5sU8OK3lcy50iUZ8VfgX/o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLInterModComms$IMCEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> HCW+tsHUfUI5X0Fgm+iu/cLMkje/Q7EnZNGQs5sMAYY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/ModCandidate.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> lufaiTRbp4zLE8Vt/TuiHGbIErxdm9LKz0I8Z7PnCqA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/EnumHelperClient.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> aQR5c3QxGK+Qv0nGDvgJx3tFfNmkRdEM33zEyfEAteI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ListenerList.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /fjolFnmMyicamdOefZtQzwCjrxXqLxk88OfCvr363E=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/ModListRequestPacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> rekeKYuhlBMvU7cA8E4FnMwNb2ukvsRmqn5HErcfzoA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/FMLModContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xt7Rk9qHiSljx/CinkDn105f3Cw39QevAnjI9YUn61U=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/TerrainGen.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mHKefUjSLqkQ8gT//wU16cwuJjNXkBeb9ymQLmbEEiM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/oredict/ShapedOreRecipe.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> bgA5yjDlhSirkD9Lt4V7CSw5GN4OI7LkxcCxODJhcfQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidEvent$LiquidSpilledEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> wYCJZg2PA5MLaF1V2/8q0Ec83zwlZJv4zB0PQw/Dtv8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/InitMapGenEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> XSv8wzifBpOkVFocgYWZbSRH+SH23aP0W09bs77Hmuk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ListenerList$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> QzyY4TQE/asce0gTOs+T+n0RCjMJPh8URlsmbE0MrEI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/RelaunchLibraryManager$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /fXyAmeA1r1C0IAxWuOPtPdLzYYplpEHh0vHprqlLrM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/ComparableVersion$ListItem.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> uq9gke/ovKbn0D4PF+eXJ7ST83CD61qG2r84emy2nJA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/IFMLLoadingPlugin.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> zGaIbXHuqZo46ydb2IkKlX0OhLh91607BZK0HtQmfck=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/MinecartRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> lsXVcu7Dzl7iJJzOrtBlwBqrTh/LxOEvK6uVFCx99oU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderEntitySpawnCallback.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> zmVt6jVgF6UQnfXmB72J45exZWgE0/Ppkn01O8r/mVk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/toposort/ModSortingException$SortingExceptio
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> DnLDUiNKuk1Tal85GwX+9AwLIp+MU4F3ak4sWg2grKw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/ModDiscoverer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> DRl4f1qQf+ZKy/d3wAgF81RUulZ1DnGlZjz4dU0ZOOw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderCraftingHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> LEEERreaL7TwzzWzsCmGgC4kkPXOL1QnBNTzpn5WPvM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLPostInitializationEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> pezroBuDJyeA6KRo7TLSJqSYuLV2hdcxn8+Tg1hKL3U=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/registry/KeyBindingRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> BiO1xzsgAjq5dBC9u35nM4qkkZ1UQOTNLeXtAdH/PU8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidEvent$LiquidFillingEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> FuNWgsP6hhf0sRirp2R6DwUOdyXo5ApDJAExKmGv9Q8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeChunkManager$Type.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> c6C3gL6gEv6FEG5YWn4lwiU/XSk9uZtNcxHngSdCu6k=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/BukkitProxy.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> QHk/5IZhVTzcsvq5nwNUuJ21CfQQ608LYbVAvov/NPQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/BaseModTicker.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Vp02XHZEmVNoEKErO9fJarUAUKy36soDeAVXp3RfYWw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/transformers/EventTransformer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 0hgTAbaQRWxNm9MKUMhPKlfSDGTh2kE1xPWpfntNY4I=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingSetAttackTargetEven
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> oEz0tlNVjtQPz0r/t5K9VgE2WjO8hesfpNSvO8ChMXs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$Metadata.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> XOXijMySJVKbLD8yvjV9zXpjozKenNU30FuC1RcQFmo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingSpecialSpawnEvent.c
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> sDqQ/vTXmELlbyD/HLyhbQ//ynXxfnf5wdmQp+GmQ/Y=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> oSA13dkR7fR7ubRqBtvpGM1xRxfROBGfjXVuMIh18I4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/InjectedModContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ANxoBPgLZ6BohTLvFwgf9AbHmiXy0p04+PZq63Yo/Qc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/modloader/ModLoaderClientHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> PuVj6ckS+BHABjpiTqnI5hXe82kNpIaBjctOhBuNNes=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 9QTDP/SG+mmGGpsv/omJkVtDJkgc+bRRll+pqwsdOz4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/ModCompatibilityClient.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 8eNmZXxREpdHsTkZxZULj1zHKsHVeCYw2775jOoCRXo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/registry/ClientRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> alwRKTrCL2sWZDB7Q9SnTbRR39lXGrc6c488k9WGVzM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/ReobfuscationMarker.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mRItV4fLGkRAKK7OBk14n2SMveVoNPXOgTdO5SX5CMs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/Event$Result.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> tRAG+n+47XyfK5Isk/kdIttSE4yIm645Y5zbjDgn834=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/MarkerTransformer$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 8vL6020nw7G2WtrwXiSVhTCFMqftFNckAEvOAuEFPuw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLPreInitializationEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> RlfEx7lqDp3uSVX/tS4LxwZvpD0eVpvlIhsQwoaqA2I=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/IThrowableEntity.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ZBmvKdUXcYC/Bl51XMsIv6B8TYS9v2BRC1tZSGHctxg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/OreGenEvent$Pre.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> YWRW4YKe/jVQ2jglcT6XfK+LT6v0rEHOVZ6f4UuTFQs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/PlaySoundEffectSourceEvent
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> oBOpxPeUli5FLd/1IuW6otaOKqarQgcB7qPvWKKXrOo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent$GetGrassColor.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 07sw6+7eHnU9d4or2iamA8kteYeuTgrRdgB4WkZhXYU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeChunkManager.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> C3xYN1mqA7PAt2wm7/AMGwQYvu8r2MkSmISDzAHwcYo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/OreGenEvent$GenerateMinable$
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mfq6X+EeFoaRvynGL/HEfdzfzTs5LEZ1Idm+Y1bMGCk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/VersionParser.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> SYSsTx6iOnPTLeXSkm3JqpMIUWkK3zBnn+5K/5MDCU8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/MetadataCollection.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> TdJ031UaRxeKOEoXjPyl/rDHDoSKP+qUGSOGQodO2Go=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/registry/RenderingRegistry$EntityRendererInf
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> SNqOTyi9xeN5B3l00UCYosTFvllOq2T5GwQS7b+vyPE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiModsMissing.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 3x2GQ0mar7p9L4WMy9IhxWnlVGCGzTBsU41UQvsr1HA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderPickupNotifier.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> QE3Tv6qa8OKxdA2VoKJ+RlGsA2X+ztXCRaduTKgwP1M=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/ReflectionHelper$UnableToFindFieldExcept
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> DO/5UZjnSV+psacCUscJGoQHOGJMuuJgLSH+gDYpxg8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/Restriction.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> OtAocALUEwj3qO5NIhp9cdmYzJ5s2Zc41byihxcnguo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/registry/RenderingRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> t2z4envf0GtfY5ZM4DUIvHPahIcRl3gTEL+8e0V2xwc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiDupesFound.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ej7MwQSxutRv9yFlabWoZDMxvpcxKRixsYJM2sxtgwc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/OreGenEvent$GenerateMinable.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> M+5fd0or71c8QtiE4rJx+eikAkZhAKPA7xoCIiil/3o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/BukkitPluginRef.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> G/eFqbLR1xQju9X/XSG0sQZqAnUDb1CzaAybe1wiQgs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/UseHoeEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> zM3CqSKzMOp9OEJ9oUcGLHMkB9I9FrUVC04qWzyvsYk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/LoaderState$ModState.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ZUpSIpa971BGEvzUqcaGTB1khTCKQlBR6+T60rcCY08=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/EntityEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> dTMI+VuTDFcIbYUwBdAtgYJvi6WJsskGFXHh1z7TmYA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IPickupNotifier.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> P+49S4fZrQ79RSxJuOEvEJrwsgovCSVRWVu5pqxcQU0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderNetworkHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 9iKSkpW98l1vWUZQWztXvbg2jOIkqaATJU27UDrpWHU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/EnumPlantType.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> pBpKjzpYXMkbPgb4KXL7bW1VdJxQSXqE7Qx+Eo3SKoQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/Downloader$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 3+pcVGB/6A3otcTwHccFS4EGh9XoxKUSltIR4fsY0RE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/VillagerRegistry$IVillageTradeHandl
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> +/MwYNYXcB2TG1te5a6k2wZt1vGEEY3wcyeax2c2b8M=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/EntityInteractEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> tFWlilfONdH2s1Wbl2if2/9G5HMeR6oy8VHfWDZitW0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hS7+hyRRMEr7u+D0WckaUC4dMAYSLUDTKRcJSlTlVVk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/ITypeDiscoverer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Wp8hUeg5q/KA//QP30gGxmf68HDsw898e1b6ahI2j+g=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLConstructionEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> fbuubXs4j2YQuI/q6xVqLI8TQBz7l7ywvaDa06d+XT8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/DungeonHooks$DungeonLoot.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> MSu1Mo+BNHS08xSxTS3D/IIklKEw7onCHQWrNp0N0LI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/asm/ModAnnotationVisitor.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> TGg88i4k63d6YgO7RbUOR7fTC+lMKDOgo4a+VE3b3G0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/RenderWorldLastEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 2C329IR9YlOrA6gcgf4bf2KbaGcn2kVDDKbEoFVB9Wo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/NetworkMod$NULL.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> J7KR/XTCfjnxsGc1CqjidIoyUSTZYfsWsavvBKmg+aQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLRelaunchLog$LoggingOutStream.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Pd1Q+wqXw4UVby2HWc5tfuVHVpjMIZDW4Qc/+N/jsGM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiWrongMinecraft.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> l6vf18E0xcERKQiL8ifEqPgJ9zdr/L1KNS99eWvsCnY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/IClassTransformer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mMd1y1zA69HsmM0swgzhmu4fQWnVWjA3hQWnx2qrbCo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/FillBucketEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> V9EzqvHo4/Yp39v9POlgh+EUmip+Oo5optZ2SrQ7eCs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLRelaunchLog.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Jjlx2twlYuHdV4nDx1nR6XapA7Oziw69izkEahMaj4E=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/NetworkMod$SidedPacketHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> gfPWxg1NszfnL8cKMMq7sOAE2Tlthj0rsiO7Oem9zVQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> VNo3Ekm2zLgaHIx/5G6J+nPdROGxzwCdGloyX81CwiQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/MinecraftForgeClient.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 0nYJZOGWdNm93GKTMFWs4lY4Psrqd/VXdpMRtCSSF+4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/ITextureFX.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> m9ZCSYcg4LVWlGHSV7gn9JPdRaTCLCl4ZxkZ12fpgZA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$ServerAboutToStart.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> YyqHUjldDNAUmFMW2xOr2iC7/u5thp5z1mhRelebnXI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/InvalidVersionSpecificationExcept
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> rHJ793PfejQL4Y+AQVjYOhulyLVioUJ/dTJbUZrcdQY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/PlayStreamingSourceEvent.c
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 0KbGy77fOg05DMQI8Q+36BRWHw4qNRri5PkSifhgf/c=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/oredict/OreDictionary$OreRegisterEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 9oVN2UOblq22+V5ab5Pq/nJxp0AlsatzoxG9YJZ5spo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/ASMDataTable$ModContainerPredicate
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> KHbzTF+DnlmE6XoRe8pm7GUfOCPEW72SdFeNvAU65pI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/GameRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 6JBizsjHZVmT3bksgTdaMLlTMj5dpWhifmtis6608Gg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/DummyDownloader.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> QSHOpybvsD3lJ+FK61Z0ST6vaHteOFY7p/H+PezmXtQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/Side.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> HUptLTJDHwEYrZ700BMK9xNR1kiYx7iBQKSNKQFw3zg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/SoundResultEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> K4JEBAt9wDfMehBUS/pzw1hm1xpgFL2mMGRX3C4dURk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/PlayerInteractEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> sf1dn1iLEuR4mmH91/6TDu/oz29O/0awy/VRhBVIoHk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/FMLSanityChecker$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> XxMH8G179jX/JVkxDFLUg8oLK/lWNHxtByMX9L0zx9o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ISpecialArmor$ArmorProperties.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> emCaSyFIqOTjc/fbpy4Pqsq0JuVlmrnVPb0j77LzKkg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/modloader/ModLoaderKeyBindingHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xirdja54BVbmZ/MAbsLLbO6Gfawrkd71k0BNbaHCG54=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/AccessTransformer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ymefKt1J8DkmwqHBTc4GtlOiWVlwSXSAaHpj0044MTs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/minecart/MinecartInteractEvent.c
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> XeQFWo4lX6WtFhq/9dXKwt8ZZJPsYUGbqKb0aO1rlvc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hGMK7QhRuuMZcg9LgSRbFgDs32sRfJHudn+1s2+KKbk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ASMEventHandler$ASMClassLoader.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> bllWiFptvAipuCtWC+DnRpoeHx8sO9MQVxvM0GxMMi0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingSpawnEvent$CheckSpa
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> aTR1Cxar9aSJTcUUURVZCXdNOcGQL3iaDfMvcqADkIo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/FMLTextureFX.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 2utiufRg/zufI/SOLiL76TqHlxhYEzdfh+8eUlQUwVk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/EntityRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ZI6H8utTZmaXacp+2HXjC52zjnFmoB+WwaJqJC1mnpM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLRelaunchLog$ConsoleLogThread.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> PQg4H5tCHbUiDImejDLRLK1NsLY9fODm66PzWLmDvMM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLFingerprintViolationEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> nH8RU0JUvB75HPQU49DepRz5NvCrOEvbvDWcpP9lTuo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/ASMDataTable.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 6NdIswyxMHpO46NYwalFzgKD+CA3HYpwf5qOi7bUYaM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkWatchEvent$UnWatch.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> XC+buG94IC/HBTszOiLweD4qmFGKz4RuLPYvHPZRNDU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/IShearable.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 7dlbfA6ii5r51GreXR4/kwbIQc4Ox22rP2jvST8nJTY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeChunkManager$OrderedLoadingCallba
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 5DaXIZMm71f0QT7G78a5PvX9LXdDdYmOXBEm8KHeET4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/ChunkProviderEvent$InitNoise
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xGg/o93aFq3+dA97/2Yzz8m4d7kP1zbzMviIvXcr6Mo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/ArgsWrapper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> BMGMMa38jVtaOnCvngHUqhbqUwWH/aqmGWXezrt4l7o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/AttackEntityEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> T0ffBhz8Ox2jG435Va2T3z1itU+sTxOZ0hNK/kOx6Po=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/BiomeManager.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> dfM6C6fSa4zylC31bxXRsM85if3nIZSGk1C2anin3AY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/ILibrarySet.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> niq+i8mTK2es849p2Uyd0MRgr87Qyopwrz2j1fY1kE8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/asm/ModClassVisitor.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> atxYLI/2ZwIJivk4Pjx+f5Z2F973sZxaLAtYYKVYeXU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/IChatListener.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ARZHz/CTiNVPIRZRSX802/ZXi91QnURSAok3Ds4l08w=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/functions/ModIdFunction.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> DpvjJy2giR6nDr6a6rjbCixC7eFpyvKThRX4KphnSM8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/JarDiscoverer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> AflOdJTfb8rYEXPV130u0hDfRMZGN9TrrvA2zgESyEE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ICrashCallable.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> X9J5pzJHWnWCaITtFto7Eux0wTDlHWQWwvnr2c0eINc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkWatchEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ZFiu8+ew2r30DMu1w283qi0phaRSyQWdvr0/QafDGTw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> obo4CqYexE+yecid7EaKZS3+FRvaeIT74Crr3SKJUHA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ConfigCategory.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UNzSX0RghL0BpnsP2lKDxLyquM9Lf93VdCmV2tAyYTQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/PopulateChunkEvent$Pre.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> TdURMVt2zTbCcxPb/OLB2fprFvR/lCYfYkia6tsk7m4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ServerChatEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 8YC7lzujIuS+ogcTEikwmH/vYUkMlDhaAsvZwEVvQ94=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeVersion.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hAwtKnLqcBfDeZ8nvqliJ1qJuZyw+USHu9rPyKAzZwI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ISpecialArmor.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /jwTdTKvBn4Q3BGGROqG1F7OPKQQjCFVEqo4xjAfcLk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/DuplicateModsFoundException.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Ko4wEmFodKEr16Q/E8h2e6NRrYZtW6scx1FGozudIRM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/Event.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> chZgaQRTTLHTpzl7T2sj8w3ALewMWXy0zzEtmdrXp4M=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/oredict/OreDictionary.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> LCYmIErpMmGvK+4xSwkbp6qPjltFfndZztZfa68YLR8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidStack.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> C5PIpt+1QrJfHJzWApjU5tbjN/OT16pOIkVi7L5dW/Y=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ListenerList$ListenerListInst.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ha+mD34VOSQDtemSgsVyxoY3QtGsCXJBiB5d2GTx240=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLLoadCompleteEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> teVra6KDCCWUQmMh7Jyg8jLEzWukzvu4wm/khZv4rr0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeChunkManager$ForceChunkEvent.clas
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 2wYwmbyiCL8xYGVqwhEkB9CI/a4o01xpPsdPNWIXDDM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/toposort/TopologicalSort.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> vJV4gj91b0JH8Nm0Kz0+0M9Zwc6dK4Q3iASpciuatc0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$ServerStarting.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mNLDYsYyMqCiyvcpunnvfydstDP4aeLj4a0fmm4Js70=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/ModMissingPacket$ModData.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> +YiIIBADjchuL739IXpVXiwrpl97SkhSFon6LOLai3k=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeChunkManager$LoadingCallback.clas
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> G0+8QyspvSX8RJsq+oSTc0pJRoyqdqgNOkBRYTR/J80=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/DungeonHooks.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> +9clmJwzNf3TwybazDh8Vfw/JL60tDcZqJ9dj1bY0OM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/asm/ModFieldVisitor.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> RcBlX9UOt0W3Y/jzLc6va7W8n6TlqI6r3YmfWbSlb4A=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingDeathEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hA+j8fY5HDF3NUNxB1NzuUXiVszZpmf5iDgO5PP76Jk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/VersionRange.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> orkn3h/Og+AZ7eIAFtwUE+6zMZoPIDQp/wpGpr8fHq8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/PopulateChunkEvent$Post.clas
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> gJ8NY4TDgO956DXaWmbz5QAp/P475WyzFl0oQXaNfX0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/CertificateHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> XhhX6n5w/7SERJcyef0XjgvVF1Fwkc6HdVOe6Q4P6s8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/Downloader$2.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> w+KHdD2igPbLhZL9T5r2ONISZtyaYheFLnsI/6fl4C8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderWorldGenerator.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> aDH4A6QXV0LDHqZY4Cv4mkW+Kq+G+7Fq/NtjpdcM0ME=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ModContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ybr/Jf8dAy1BrO1CXXXZZ749Q27SOydFjFmUHDCW0nQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/asm/ModAnnotation$EnumHolder.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> MmWd6iG8QIFixHjoLTOdF9Qn7ihQ4Q5Tvb932Vbw0YY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/LoaderException.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UorQpQJ0QFYAvaRXc5VDdFudHXB4YhjBH7QZCxyxCbo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidTank.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> IuLonTq1RB7tclkqXSNJW/35nHi3FnYjhNAaVbgLMfU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$Instance.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> BSbOVcv3rFCAoF37GmCDAzQ/+5WckSh9SBu7CCkcbJg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IPlayerTracker.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> r3UcosUzgq0GobLYSZR4x9xRndkvdCPjnJ35XnY/fLg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/PlayerDestroyItemEvent.cl
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> fmD1tpGLSOa/3RIUjfS73/uYv3t+qswexk1NAE5B3Og=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/DecorateBiomeEvent$Decorate$
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 4jEMjDjnGQ8dh4MHKtl/rKq/JMb9Aba4k7PujuT5wRU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/EntitySpawnPacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> wCZykSJv0G5aHq1Hc5Icd3OY1tOR+LEO7m/Usb+RDy4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/IMinecartCollisionHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> FByVi+5bc4PqVh0HSBpuikr2OdH652jFzwAxIJGOsjE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/NetworkMod.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> RvzbLPdjTqMJItn1OmPHtwYKfW7sN1SrmiXvRMCZtf4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent$BiomeColor.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> E9bRxK2dMLLmFSPWg6UlJSuBR874SVza06/VHV3IdLA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/server/FMLServerHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> TCOfzqQN16AJ6NuYIPLeSqQxqeOtmuN30rMX/purjRM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/ItemData.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> BdR/qTyNrz+7H9TdThsfP2bkmBQtaqq8F1cFAHebd0Y=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/VillagerRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> F4fpYjJtqXrW2X60x188cu4zC3qo5WdLmQ3BfyGGnKM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidContainerData.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> LfIE+d7+xW1y8zm1UbdNrhwd3HmzVVm5CGNsgsYh3bM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ModClassLoader.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /5sFI3SDiokVU+haKP38YrgDdHrHFabc+glFwDDI1yE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$ServerStopped.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> cbdTY9qnDKyAMppnUZNkKIN8HshujdMXU7KkfB/qZzU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/GameData.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 6JbY/bbGV5qlrDkXLtkZh7Tfv9+/+Ru2ordtPzYIk3g=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingEvent$LivingUpdateE
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> XJbPKf/H8zljMOjCC4CMh4mTc1k93Lsf8kbSzPF5/ck=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/AccessTransformer$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> eqKK/jPBNRNP73HULWZCgXs6Tp4jYhKaiVof2fnrl5Y=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingSpawnEvent$SpecialS
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> pOhTCNbiY7YGUtjL90ubw+/FKNpL3xl9sEmRCEZCkD0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingHurtEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /lCA5bTTlSXu49448fIXUQ0mqnIAxb1/ENnBIAWztPc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeDirection.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> BcZR1O2KESjsRKDXxA22eqhVKVF6ZCrrUhBA39X2674=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/LoaderState.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> WrX/Ix8iu9w1IRpTpBdzR/SjlDI9DDXWclNt7JutKFI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 7tOlr7BnSI2g/GJ6MkKgQyCYoNK9k7QhDBmmu9rLj3U=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ObfuscationReflectionHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> lctQ0K9Q/nTGQCPpHdZpNVh//NpytOfDkgTfSrs1wVU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/DummyModContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UCRbb6W8aLI8nMZ699Ritc7YQXejra74zVmiXxevkOo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/ArrowNockEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 1Ftfvx/6MFT4lV88EacmfnEmD9qyzBlPYvtO/oXaxrE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/minecart/MinecartCollisionEvent.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Zh3kWBdbbFlHC+1aYmmYAu86rjZGQ+H2G3wNt9I5WHk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/PacketDispatcher.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> F56JGVWMAZQ0/SY/qayLeKkzqBLL3tSt9CeSIbr5uIg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ModMetadata$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> lAowd8MqapdxnB7WEjJxztVXQptmOVhr+GO+acN5hJ8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/EventBus.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xarfQIGbxpq29vkEhq+JUpX4SV6m0JhU+S/X2ZIEZtc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/IModLoaderSidedHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Ky+/yrBF5VPSR6fMLFdUMcMviLImeHQ9fvHHPL8lPS4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/IConnectionHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> VV0fsgYlxTIqN1XLSUOsfl3RLXAK9UYqqgOm52qQX28=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/classloading/FMLForgePlugin.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> x2mC9wyKAyttZyjOOTTlmQ8wky87d1kLxrEBeDDkyTY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingEvent$LivingJumpEve
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Q620/0Bb4cGmr8I2ZZTRJOTGa229n2CW5TmRl2qLtZg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingFallEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> MYvBSLW2J5aBosSZEhPlpiwT4qh3Fk/YpK7zjrVVDQ0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/OreGenEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 2jMVahK7wEHGAT7tP9HLQTjSsRpyMGCXVyGSYTSx7Lg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/SidedProxy.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UKurbqmd4DQVMJ9pOEEDdjtdOisZhw+4b2CNNXhwBFs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/RelaunchClassLoader.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hEDYTTylhkAnhfHeTZk+m4wtY3p+tr9HhrFlktdbea4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ForgeEventFactory.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> JvUSlLlcRNz/ujoTLqCo3TpV/DaExuc/dcLrX46pqvY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ITickHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> zMMpvCxZtO3556Q5JaJrwW2BUeQ/MVE5azWmgNsfk9s=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/IEntityAdditionalSpawnData.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> jN5GeUQDTFsU4YO6hKj79z7qWJqkBcY+USAsEFLzquc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/IArmorTextureProvider.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ZiagZjatPao+/sHl2mB7Wsnrq43aIjYpeviI9yO9J5k=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/IBlockLiquid$BlockType.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> kE9K23vnF2ljpfszYS9U/a6fN1dfv3g6uveKQBJoEVM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/oredict/ShapelessOreRecipe.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> pVXHgNf374Dctrfqb4/j0ie1IVeFikfYeBp/E+8F2eI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/IRenderHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mx5mJXbYlZaqCNI310mtll3qedgT0nEFDwXUf23f+sE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiScrollingList.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> dNXFmFnrhjjdvbz48s1od884cVYBZkTGLBCL2Pduqqg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/FMLSanityChecker$MLDetectorClassVisitor.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> apc6Pv6wbTWPtBYXZQNwiTYdqZOOWub0q01xHIOWexs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/IItemRenderer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> a7ENWlIh3V+Y0p3vjRaF07x5FaYHYXBm09B6lp6QMgA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/IBlockLiquid.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 424VLm6PezG68KkAgRHs5UJrzxoBY0+K09Ohqd9XLKE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ForgeSubscribe.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> u4MX36g4LrHtrMXUUMR1w/FFJ2NAZ5sBT4+N7Ga/c3U=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/IPacketHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> YRui00jhe6zgoadh6aYrWeeJlhVxE8Nc300o1KlvQl8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/INetworkHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> RZ0FQrMHj0aFypNgC0WF8NopITnZBG4AFFY8yoCZtqw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/Configuration.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 0OJPfAuqzhiff2bXImLs6/lflupfKQvCUti2zFFaG8w=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeHooks.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 1T21Hx7RW3P6G3yPlBsHwZyCU+xD5SrsWK4yOc0ycnA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent$GetVillageBlockID
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> i966n9RGNRiPleBAcAd4nI4TBRyFzCaGnMMo9hGPYOM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeHooks$GrassEntry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> NJSQc7cEw36qVAFtVTK9H8w9IXab7S6+A610XXkRCmI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/PlayBackgroundMusicEvent.c
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 7eqxzo35/tr9D4ZR+lv0qZD/q0FJyJot07dj8oANwp8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidDictionary$LiquidRegisterEvent.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> jC/5YeFGxF7/90xLHCi+IJ+uj0X7QqKIL+dtTPHRSy0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent$GetFoliageColor.c
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> M5NeZWVu2D6hwNisqbv8E0L9FtTNwnNOnVVtn+q/jLY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/CustomModLoadingErrorDisplayException.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> MJofslHlXarVAVJGZiKAPpYTeWnrcdY4ElR0pQqFB8Y=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/toposort/TopologicalSort$DirectedGraph$1.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> upt4lVYFaZKkspZmYJvRxgFt5IwgZRI1Qcs08Dlad8s=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLRelaunchLog$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /hl67T8z5Df/E4IeOLt6IixJtSbTi3EIqbJclCodnhQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/ReflectionHelper$UnableToFindClassExcept
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> tkayLnb/EmNU4AisC8i7jX04qZxkEAaxJm6bqNqAgnc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLInitializationEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> WvrnfrrS+xHV6LFOeIELOaBXg4CKcqgMUYDYEqu85rM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IWorldGenerator.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> LJoyWo7PuGPx2xFx8tI9y5qfNVACjHexs5O220TfK5Q=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/Configuration$UnicodeInputStreamReader
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 5KU3BJuY4MoTCcTyUryQmwI3PrGfCK/6n2jCoe36gWs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderModContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /WPYF6NbucS4g+c8U6desObNb0/KO/UBIyj5KhFZv7E=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/Downloader.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> M6DuDN8njR711NPFi7Gs55ADflliwDVA90fZdEw1QSs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/NetworkMod$VersionCheckHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ts1ZBcyWuNP+XyvJMuEigDpWzXXIhpRBttu+w+n8k0Y=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/LanguageRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UMs8PKCSLEoeHDv3qBP4bgRwzaN0hoemS32L/c53y/I=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/SpriteHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> AfPPBNgwRVBDFjxJNn1xPo3JA6uYOLTRxFqw91joCl0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeChunkManager$UnforceChunkEvent.cl
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> iYb/jC62sltRrSNbloj1GPXBaADR3pcHfndxFipG6TY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/IPlantable.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mQ04qYItMX/vPbt8Izgq+C3zXX/L1Pyt+9xz2kKAQFQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/SoundSetupEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> u/KC2qJLnLB9uk15/yKBcdWfHidtETtg1qrERMzwgaY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/WorldEvent$Load.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> CK/1YqnHzcIYVeGaEjvry/1yp1U/a965+gS1IuTx5mA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/FMLPacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> lnZkwMYcEYUeZvqS3Q1tdnqOS/2JBA35A4SkoJpY5YU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/CoreFMLLibraries.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 28zJzhc/XbLyTLtWbTn9m3hL6HENa8eRCH7+Ir+We0o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/SoundEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> znzEXdYHAVUGkMpXdwOISBe+smKxe50Zf8FnTW796KI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/ITinyPacketHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> j6ZMS2Dop3omxjbIRutRohhQufjjr71aaFjjV+7Mw8s=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/OpenGuiPacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> PuJBO8HCUVvonliW81u8ZHnpjtrVDhFflTjwGyA2BQA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/ASMDataTable$ASMData.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> JlQITUrWOF78DFjbi+V0LvpIiCZ2NtHfhDs1s5gablI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/liquids/LiquidContainerRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> P7WwixmmgGMKEsCQ3baijs6oAwIpGN25tHGj9OF9+jY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/minecart/MinecartEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ogr1hEOU0smn0wUOZzzxNL1gAgsRmSVlyFWQbteCews=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderFuelHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> +sLWow4UAfBw8SVO85EO+DYMgwhP6gl3XsiOxVEAnqs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/ItemProxy.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> NafcEqtyQETyBVY5yGtd+C4uhbi/e/uAZuoWf/r/i6k=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/PlaySoundSourceEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xbfD6lDZUOFz2o0p8wugVumkn07Up3PoAj4dqY3mmEs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/AccessTransformer$Modifier.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> kclKty0UmeM19J0ji9dk0OUnwS3ouj1o5j1bFdfc+LA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ModContainerFactory.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> qz1oS7WGe4Yi1tBoN0VNiDEKZYNdwDFmI5Uv70PSuYA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/Cancelable.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> u+UAYh/bpyXiXvp5u579NkjT5uHhywHrIVv87RyjnfQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/PlayerEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Xkx6PtKGvE4J96YIKs2RHub2AbpsXtEkPKxcJuctSfs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/NetworkModHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> GbNPcRTpF0OulOLF5DK77xqbhrtWxEnruSCI1LNs7dw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ICraftingHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> GBoFexWVHDzW9BOTljMhz1+WR8ZnyUAi4Wu1LE8vEjU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/SideOnly.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> VdHbYEZoFiK7GCYfqoKRwbl3ARpiVs4kzUiDMV3dJL8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeInternalHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> LUiKV7M0fgL0bsLMQieNowSU0DT30FgMQL8F7J0r58k=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/InitNoiseGensEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xsK2dASmHexE+uxWrw3rN7mkBh+Sw9GqhjebH+zqLCw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/MCPMerger$ClassInfo.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 4sVzIg/WKoiCSxN9aupEiLk0K4OGSWndJ9E4dCXg1vA=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/FMLLog.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> gQafm9MZVC/bXACJYOSqwLKY/lFYVIEZ4T3bOT6HYS4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/EntityItemPickupEvent.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> tz7QqhgQEFkn+idFFPJuiU7XV8B3cVS6SX/E4XYr0ho=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiCustomModLoadingErrorScreen.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> LOMBQhmHHdXDaq8nqRyz3CQ5ifsChsQgAZMgpaabLgU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/IDownloadDisplay.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> QxNkaGF3wiKzj/OA2ABizlfDJNcpiJ7m9EKz9aXLhZg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/MinecraftForge.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> mjVvWLdmOS408yF06eALkEM7hLucu9ltwUSUndtF0g0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/item/ItemEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> GVpHOVldJpGux+KFBGBp4/HGXZierZ1uSFedd9hkqOo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/ArtifactVersion.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> PqEZjP3P73bP/jfj09AE3gihKY1lJo5MUZZ37idEKAM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/ModMetadata$JsonArrayConverter.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> oVyNUuDOd8rEy5jwUqCydn9SCkscmhR7aXu0eEPW45s=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/modloader/ModLoaderClientHelper$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> RIH3JiMRbFJ2plre52NdWJfvRjvS1fzkuyiuNUwtUFo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/asm/ModMethodVisitor.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> GGKP7sEc7KuKmQRHRluXLnD/dh5kuEljD3TrHu0RQTE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/registry/ISimpleBlockRenderingHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> kZX5Gtqc4Q2dYWmrNcLbx7+m9K16uvoHfYUioDAUKZk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/IEventListener.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 8ygZcBnkL5FXqla8NIgn+xWb7DCfWwwg/SvvJdFqcXY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/IGuiHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> rjN4LNIyF7oxQQvw2WEEji40PU/RCbO6wpAVQUdy27s=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/TextureFXManager$TextureProperties.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> tsgaHGXNSHdh5XNKJwU/933lpeCIgm9yjOnwAlbmORE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/FMLDummyContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> e1pbjHSafts0Qv6zsF/a5S/3TmJIeRh2xHpxMmUBCr0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLInterModComms$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> i5OsB7nsMR+SYa2KAgqiGPNNWNaZz0YM0pW/01qmCsE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/DirectoryDiscoverer$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ZpSm7PG5gvOKjq73YjabUbwSr+mvGYYenhNy2ykoMk0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IFMLSidedHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 1WF7WHpJgHA3h4Zd4t/utWoJKSZlg9SBfSKACU9w7M0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/ReflectionHelper$UnableToFindMethodExcep
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> vG4iERr8Don4RYcLX7nqbU0RcaVYmuR5/+iHb4llLUQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/TickRegistry.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> SEhUuqkKCINfx1WyvupwJftRnYeDTV3r76GZjVhYTDY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent$CreateDecorator.c
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> syA9PVDt0kxqwyySyQQjwn6fyR+dRUS7hLr6u0F3ZUc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/BiomeEvent$BlockReplacement.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> iTvCKprWQthMTXVhaWp7Swlyb0+RSIhP7NCb0w2ZIqE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/WorldSpecificSaveHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> zj9AX5EVJnb433LpTkVL/8zlbtFqSC3yxst5vYuRr+o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/FMLNetworkHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 7wXrG16Qp3tB2nrF3sYkLcm9gXhm74eRt4jK7eS+HTY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/TickRegistry$TickQueueElement.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> a10RlMl08/aVDCVSClfp1y1O8Sd1JiQy3GUaFg/X/NM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/Property.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ZMpRrXp12uioYNnFrbbRPcBFiy5bSQbLgTVfW5xOKYg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLRelauncher.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 9hLsCE9eJYQAww8Ex9BY3nNFHkZhD1Ni5WkfV51pkw4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/WorldTypeEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /RMb2NvoA9RImMBPg8lF7iIbgbsdxQKkQAHOoRheBhs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/PopulateChunkEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> CV9wvsqPPmaRk4xJsU6E8j5QyWzEvnL9p3SbDu58L9E=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/PlaySoundAtEntityEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Kv1dOUvYKiJ458qfM3/IPLzCS1tfmrC+ZzlcogLXARs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/IRenderContextHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 37iFD7Z08UdctMGwHTguNDF/gkZq9/b4jYC0wRptj+4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderPacketHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /kSWbK06y4nKAPs7XY5ud/XNouaFJWNRehzyhKf6kyI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/IItemRenderer$ItemRendererHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 2AKLtn5qLUJPpAYwY8PXt6xSzHjjej0HB5vZ5ASZH+U=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/GuiControlsScrollPanel.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> k2lJmtpkSwIEuhb+aC5B2FA6i9x3D/sy95YeLwYrn6c=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/ForgeHooksClient.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> bF9Zj3q70udldGa2mdMVpchwllCqG8F0thXMXhRKayk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Loader$ModIdComparator.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 0PcXsZaRsXZ6g1qlL3DCnPVVOphxmBjKvEvGPwM3rOI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$ServerStarted.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UwcNEngRebPQjsBwdv+a5rqlA/1iAV6wOc3Khqe0tik=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingSpawnEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> eFEQ9rY46NUkNfKAik/CGcwEr7mXD1s45Z1vH0zAlgI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/PlayerEvent$HarvestCheck.
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> UPDLHxaJ1eR0b8Khey6b+iXR7akptw+DuDJTdITgMko=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/FMLCommonHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> tI+90dqjjVsxSZvkAJBRh65V41i9F0fcL4e4NfiHe3I=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/PlayStreamingEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> VAWt4MNbVp4wWvV8Pid55uyBOGvFzbpjdsaZY8jekeI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/PlayerEvent$BreakSpeed.cl
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> pUmg+HF/ZOxtU8SQ+15GpXajGb3bXsjlWaHNcU0j1dQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/item/ItemExpireEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> yW/AL83q9aHO537NLEiCyLEkMPquY6IQsVMtFatc1Fg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/discovery/DirectoryDiscoverer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> V1daUh/ZktM/t0JUPTd0Dk0yC5PissFpcoPe/AvSV64=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLServerAboutToStartEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 01W92tWUbsv/RxtxHXZ++S/eaer0Rsh0MJYjo4IPzQU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Loader$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> rKuPYBXEMJyaBwTY0fhs7AOD7Cyii7C+vypxDfxNsvM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Loader$3.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> g3VtMWAWGxttpO6bD5P8nCORN2rUxTKdTF7rEkr/A60=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLRelaunchLog$ConsoleLogWrapper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> NTGKmUg6vWFUADgFmQexGyo5fzCCGRtC+liAHBb1/u4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/BaseModProxy.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 7/6hq2Z/blM3IRLziUXeV2G6pHdpeivchPipp60/gTg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$PostInit.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 8P7yidu2efFAwRjYFVtGSr8OdRttwbk/0M0+f2xMqS8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/ModListResponsePacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> xqXBvLTR+/2XaxowNGKrNpcusKwQv7Ltr4QXMcwmhyQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/IScheduledTickHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> LAHiDYPUuKhDYvWd1WVX7Uz1AlGk5QCcZwQSfItbE8Y=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/living/LivingAttackEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> b+sE/8ZqyTA9INgx5mwy8cxfdQxL+uv34eng7JyB8WQ=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/ASMEventHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> JD4CKCSzIy7tGoqQWszXJcQGVTklwWvZSVVCuSQ8tsI=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/FMLNetworkException.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 0k+t4kp414ZjjCTw56u2chZPKbDS7cI2fYbiAhysDaM=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/ASMTransformer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> DIN/K9z1fSMEHNYIBDXk60GGFiyWq+0iDBFQtzs+Dac=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/DungeonHooks$DungeonMob.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> YqUGmgz42ajUWovN0DNViljJmrd4/b6QBRe3AucQqO8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ForgeDummyContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 7to4wVieUOMIBdFFhRHXCoq95vC/Mw3c3KTaoYTSZlk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderDispenseHelper.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> edmswXZYKMSe7Jvgmjume5PhqopyeKaYSwp3c6pZS+8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/network/ModMissingPacket.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 5CrrP0EoYqn5BZXJHu21pZZGcfd7m4BtPMDy38JYqec=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/ComparableVersion$IntegerItem.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Z5KcQb162zRU+StUWTNUG6dAqpzj7czCCzz9RcscSBo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLServerStartedEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> hs3gWxGLxqA7ZqQaXLDqkInBiZiMQS4teLd8INikcFc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/WorldEvent$Save.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 4X5eLbjngRsn5XVrpNRY1T1wqMsToSlNlAaQm3mvNGc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/FMLCorePlugin.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> JkFPGN4Th7hsJpHzRN49nqOQIDaTHSoUEms+5SwJFSU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/DecorateBiomeEvent$Pre.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 51E46c2st4iMAIfJZsGewMfIaj9nr1mF+HX1LNW4JGc=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/WorldAccessContainer.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 1UL3SpR0OXhcrwQKpLNmEOyLasxcJKa0nLkJbCj/cNY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/PlaySoundEffectEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> kcxmmx9ZpdoyzZYjJ+XjOIDd3yRFsZB2majelzPmqv4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/registry/IThrowableEntity.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> Df3lm7iWexCrgn+5Rj7KDhS+awhSZyJLbhrFxqx4lO4=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/DimensionManager.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ktN4D6ToFF926nWXRP9XXY5ZuZd4+rKR0iJV97suRP8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/world/ChunkEvent$Unload.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> SojLbZTwfcKkxdGDT+4FzfqIrtGNbBjf2RK9lBHcfjw=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLStateEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 6VJGiJJK2yhem4NfuE4PyMFogg9SBljtNoJ/4V9W1Qk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/RelaunchLibraryManager.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> /70kwS6Kiatno6Q2CfO9EyAgVFCbwGM5Cz8ewWp5uGg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/asm/transformers/MCPMerger$MethodWrapper.cla
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> pzPA/O6BCHhuhjlpRGB5cyY9jYaSPW6CfVCfSD0ACho=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/relauncher/ReflectionHelper$UnableToAccessFieldExce
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> MVrkRHxD4Nfz33QiCvz/fQL6MohqbyzhntaOdck4L4o=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/FMLModContainer$1.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> DGsDKJsmItX5TtuJnrXQjfeW7vzoi1+fDs2bYuuKWC8=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/item/ItemTossEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> DxrMZxL/5NeHULoo5Zp1p9Nq3PXCMprvsKD3dstsDww=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/event/FMLInterModComms.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> ySLhJMHZT86PBHnhbbsLFt7FFQOwpZ1K4fx15AeNIZs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/registry/KeyBindingRegistry$KeyHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> WR3dd1bTtqyTS34ZX2tLJA1aR3oBmXvTYZPtswzuZJU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/DrawBlockHighlightEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> efsVqrDsLuf6O4JrthDL7uUpdtVlksi6AXeHwTaYJFs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/client/GuiIdMismatchScreen.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> PBEnZbyY1woq7cOvfqTtG+a42pELkFEm05Rv+ZB2QSs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/toposort/ModSortingException.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> qvZQpmBsHGQWf6f2yhkGEgaBjCRB7sI86U0gbpJ5quY=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/versioning/ComparableVersion$StringItem.clas
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> YEX8O1OUg6EVTEHVxWdLflfP+dMv9j+Us9gXBBlj4lo=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/modloader/ModLoaderVillageTradeHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 9CqSBCbhURhlMvYt4HRV2Xg8n/BxyNKLtaurauVCewg=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/PlayerInteractEvent$Actio
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> eLY83cu95Y1125Qichpedut0mY31Bpu55PIYsEovvCs=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/Property$Type.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> fJIgRsXJkVyEl10dCwHdfCXAM0WlhYPAmsyTVgIqjik=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/entity/player/BonemealEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> fs5dxFt3VNj2tKLmQ84twADS/0A1OJAl0/u1Da8l2e0=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/terraingen/SaplingGrowTreeEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> NvFFgheDRrh5kusieRc9yPAjESC+nZwFqEFtl9aD68A=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/common/ChestGenHooks.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> SsiFcDwL3Vsrfek0jbR+QZvWf/YjjDbeE9yUZy5V+hU=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/Mod$Item.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> MJ3QAqiRQ3n327W2vCeQJgu4odC5HKOWNpnk5NI/4QE=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/client/event/sound/PlaySoundEvent.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> OkGsSd6ZMQuPxkMGbOQJrfeEz9P/JtFQBmwFv40ob08=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> cpw/mods/fml/common/SingleIntervalHandler.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> RFmLQ3jZE3ZRxOdaU4CWoV9JdsculQBKJjkWiyhYhMk=
+2014-11-12 06:19:42 [INFO] [STDOUT] Name=> net/minecraftforge/event/EventPriority.class
+2014-11-12 06:19:42 [INFO] [STDOUT] SHA-256-Digest=> 2uvIOmK5rCJYdAr/lRxHZxOVkY6Jbm9NCOQqcIimyhk=
+2014-11-12 06:19:42 [INFO] [STDOUT] THIS SERVER IS RUNNING BUKKITFORGE null-null. JUST IN CASE SOMEONE ASKS!
+2014-11-12 06:19:42 [INFO] [STDOUT] 210 recipes
+2014-11-12 06:19:42 [INFO] [STDOUT] 27 achievements
+2014-11-12 06:19:42 [INFO] [STDOUT] Transforming x using keepcalm.mods.bukkit.asm.replacements.CommandHandler_BukkitForge !test!
+2014-11-12 06:19:43 [INFO] [Minecraft] Starting minecraft server version 1.4.7
+2014-11-12 06:19:43 [INFO] [MinecraftForge] Attempting early MinecraftForge initialization
+2014-11-12 06:19:43 [INFO] [STDOUT] MinecraftForge v6.6.2.534 Initialized
+2014-11-12 06:19:43 [INFO] [ForgeModLoader] MinecraftForge v6.6.2.534 Initialized
+2014-11-12 06:19:43 [INFO] [STDOUT] Replaced 84 ore recipies
+2014-11-12 06:19:43 [INFO] [MinecraftForge] Completed early MinecraftForge initialization
+2014-11-12 06:19:43 [INFO] [ForgeModLoader] Reading custom logging properties from C:\Users\Nick\Desktop\Garbage\Server\config\logging.properties
+2014-11-12 06:19:43 [OFF] [ForgeModLoader] Logging level for ForgeModLoader logging is set to ALL
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer, codechicken.core.asm.CodeChickenCoreModContainer]
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Nick\Desktop\Garbage\Server\ftbserver.jar, examining for mod candidates
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Nick\Desktop\Garbage\Server\coremods\BukkitForge-1.4.7-257.jar, examining for mod candidates
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Nick\Desktop\Garbage\Server\coremods\CodeChickenCore.jar, examining for mod candidates
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\argo-2.25.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\guava-12.0.1.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\asm-all-4.0.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\bcprov-jdk15on-147.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\commons-lang-2.3.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\ebean-2.8.1.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\gson-2.1-cb.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\sqlite-jdbc-3.7.2.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\json-simple-1.1.1.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\snakeyaml-1.9.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\jansi-1.9.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\guava10-renamed.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\SpecialSource-1.3-SNAPSHOT.jar
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Nick\Desktop\Garbage\Server\lib\mysql-connector-java-5.1.14.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
+2014-11-12 06:19:43 [INFO] [ForgeModLoader] Searching C:\Users\Nick\Desktop\Garbage\Server\mods for mods
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a candidate zip or jar file ChickenChunks.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a candidate zip or jar file redpowercompat.zip
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a candidate zip or jar file redpowercore.zip
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a candidate zip or jar file redpowerdigital.zip
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a candidate zip or jar file redpowermechanical.zip
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a candidate zip or jar file wirelessredstoneaddons.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a candidate zip or jar file wirelessredstonecore.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Found a candidate zip or jar file wirelessredstoneredpower.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file ftbserver.jar for potential mods
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] The mod container ftbserver.jar appears to be missing an mcmod.info file
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file BukkitForge-1.4.7-257.jar for potential mods
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] The mod container BukkitForge-1.4.7-257.jar appears to be missing an mcmod.info file
+2014-11-12 06:19:43 [INFO] [STDOUT] Transforming net.minecraftforge.common.DimensionManager using keepcalm.mods.bukkit.asm.replacements.DimensionManager_BukkitForge !test!
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod keepcalm.mods.bukkit.BukkitContainer
+2014-11-12 06:19:43 [FINEST] [BukkitForge] Parsed dependency info : [] [] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod keepcalm.mods.events.BlockBreakContainer
+2014-11-12 06:19:43 [FINEST] [BlockBreak] Parsed dependency info : [] [] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file CodeChickenCore.jar for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file CodeChickenCore.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file ChickenChunks.jar for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file ChickenChunks.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod codechicken.chunkloader.ChickenChunks
+2014-11-12 06:19:43 [FINEST] [ChickenChunks] Parsed dependency info : [Forge@[6.4.1.413,)] [Forge@[6.4.1.413,)] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file redpowercompat.zip for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file redpowercompat.zip
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerCompat
+2014-11-12 06:19:43 [FINEST] [RedPowerCompat] Parsed dependency info : [RedPowerMachine, RedPowerBase] [RedPowerBase, RedPowerMachine, BuildCraftBase] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file redpowercore.zip for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file redpowercore.zip
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerCore
+2014-11-12 06:19:43 [FINEST] [RedPowerCore] Parsed dependency info : [] [] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerBase
+2014-11-12 06:19:43 [FINEST] [RedPowerBase] Parsed dependency info : [RedPowerCore] [RedPowerCore] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file redpowerdigital.zip for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file redpowerdigital.zip
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerWiring
+2014-11-12 06:19:43 [FINEST] [RedPowerWiring] Parsed dependency info : [RedPowerBase] [RedPowerBase] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerLogic
+2014-11-12 06:19:43 [FINEST] [RedPowerLogic] Parsed dependency info : [RedPowerBase] [RedPowerBase] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerLighting
+2014-11-12 06:19:43 [FINEST] [RedPowerLighting] Parsed dependency info : [RedPowerBase] [RedPowerBase] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file redpowermechanical.zip for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file redpowermechanical.zip
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerWorld
+2014-11-12 06:19:43 [FINEST] [RedPowerWorld] Parsed dependency info : [RedPowerBase] [RedPowerBase] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerMachine
+2014-11-12 06:19:43 [FINEST] [RedPowerMachine] Parsed dependency info : [RedPowerBase] [RedPowerBase] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod com.eloraam.redpower.RedPowerControl
+2014-11-12 06:19:43 [FINEST] [RedPowerControl] Parsed dependency info : [RedPowerBase] [RedPowerBase] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file wirelessredstoneaddons.jar for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file wirelessredstoneaddons.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod codechicken.wirelessredstone.addons.WirelessRedstoneAddons
+2014-11-12 06:19:43 [FINEST] [WR-CBE|Addons] Parsed dependency info : [WR-CBE|Core] [WR-CBE|Core] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file wirelessredstonecore.jar for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file wirelessredstonecore.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod codechicken.wirelessredstone.core.WirelessRedstoneCore
+2014-11-12 06:19:43 [FINEST] [WR-CBE|Core] Parsed dependency info : [] [] []
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Examining file wirelessredstoneredpower.jar for potential mods
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Located mcmod.info file in file wirelessredstoneredpower.jar
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Identified an FMLMod type mod codechicken.wirelessredstone.redpower.WirelessRedstoneRedPower
+2014-11-12 06:19:43 [FINEST] [WR-CBE|RedPower] Parsed dependency info : [RedPowerLogic, WR-CBE|Core] [WR-CBE|Core, RedPowerLogic] []
+2014-11-12 06:19:43 [INFO] [ForgeModLoader] Forge Mod Loader has identified 19 mods to load
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Received a system property request ''
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] System property request managing the state of 0 mods
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Reloading logging properties from C:\Users\Nick\Desktop\Garbage\Server\config\logging.properties
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Reloaded logging properties
+2014-11-12 06:19:43 [FINE] [mcp] Mod Logging channel mcp configured at default level.
+2014-11-12 06:19:43 [INFO] [mcp] Activating mod mcp
+2014-11-12 06:19:43 [FINE] [FML] Mod Logging channel FML configured at default level.
+2014-11-12 06:19:43 [INFO] [FML] Activating mod FML
+2014-11-12 06:19:43 [FINE] [Forge] Mod Logging channel Forge configured at default level.
+2014-11-12 06:19:43 [INFO] [Forge] Activating mod Forge
+2014-11-12 06:19:43 [FINE] [CodeChickenCore] Mod Logging channel CodeChickenCore configured at default level.
+2014-11-12 06:19:43 [INFO] [CodeChickenCore] Activating mod CodeChickenCore
+2014-11-12 06:19:43 [FINE] [BukkitForge] Enabling mod BukkitForge
+2014-11-12 06:19:43 [FINE] [BukkitForge] Mod Logging channel BukkitForge configured at default level.
+2014-11-12 06:19:43 [INFO] [BukkitForge] Activating mod BukkitForge
+2014-11-12 06:19:43 [FINE] [BlockBreak] Enabling mod BlockBreak
+2014-11-12 06:19:43 [FINE] [BlockBreak] Mod Logging channel BlockBreak configured at default level.
+2014-11-12 06:19:43 [INFO] [BlockBreak] Activating mod BlockBreak
+2014-11-12 06:19:43 [FINE] [ChickenChunks] Enabling mod ChickenChunks
+2014-11-12 06:19:43 [FINE] [ChickenChunks] Mod Logging channel ChickenChunks configured at default level.
+2014-11-12 06:19:43 [INFO] [ChickenChunks] Activating mod ChickenChunks
+2014-11-12 06:19:43 [FINE] [RedPowerCompat] Enabling mod RedPowerCompat
+2014-11-12 06:19:43 [FINE] [RedPowerCompat] Mod Logging channel RedPowerCompat configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerCompat] Activating mod RedPowerCompat
+2014-11-12 06:19:43 [FINE] [RedPowerCore] Enabling mod RedPowerCore
+2014-11-12 06:19:43 [FINE] [RedPowerCore] Mod Logging channel RedPowerCore configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerCore] Activating mod RedPowerCore
+2014-11-12 06:19:43 [FINE] [RedPowerBase] Enabling mod RedPowerBase
+2014-11-12 06:19:43 [FINE] [RedPowerBase] Mod Logging channel RedPowerBase configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerBase] Activating mod RedPowerBase
+2014-11-12 06:19:43 [FINE] [RedPowerWiring] Enabling mod RedPowerWiring
+2014-11-12 06:19:43 [FINE] [RedPowerWiring] Mod Logging channel RedPowerWiring configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerWiring] Activating mod RedPowerWiring
+2014-11-12 06:19:43 [FINE] [RedPowerLogic] Enabling mod RedPowerLogic
+2014-11-12 06:19:43 [FINE] [RedPowerLogic] Mod Logging channel RedPowerLogic configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerLogic] Activating mod RedPowerLogic
+2014-11-12 06:19:43 [FINE] [RedPowerLighting] Enabling mod RedPowerLighting
+2014-11-12 06:19:43 [FINE] [RedPowerLighting] Mod Logging channel RedPowerLighting configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerLighting] Activating mod RedPowerLighting
+2014-11-12 06:19:43 [FINE] [RedPowerWorld] Enabling mod RedPowerWorld
+2014-11-12 06:19:43 [FINE] [RedPowerWorld] Mod Logging channel RedPowerWorld configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerWorld] Activating mod RedPowerWorld
+2014-11-12 06:19:43 [FINE] [RedPowerMachine] Enabling mod RedPowerMachine
+2014-11-12 06:19:43 [FINE] [RedPowerMachine] Mod Logging channel RedPowerMachine configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerMachine] Activating mod RedPowerMachine
+2014-11-12 06:19:43 [FINE] [RedPowerControl] Enabling mod RedPowerControl
+2014-11-12 06:19:43 [FINE] [RedPowerControl] Mod Logging channel RedPowerControl configured at default level.
+2014-11-12 06:19:43 [INFO] [RedPowerControl] Activating mod RedPowerControl
+2014-11-12 06:19:43 [FINE] [WR-CBE|Addons] Enabling mod WR-CBE|Addons
+2014-11-12 06:19:43 [FINE] [WR-CBE|Addons] Mod Logging channel WR-CBE|Addons configured at default level.
+2014-11-12 06:19:43 [INFO] [WR-CBE|Addons] Activating mod WR-CBE|Addons
+2014-11-12 06:19:43 [FINE] [WR-CBE|Core] Enabling mod WR-CBE|Core
+2014-11-12 06:19:43 [FINE] [WR-CBE|Core] Mod Logging channel WR-CBE|Core configured at default level.
+2014-11-12 06:19:43 [INFO] [WR-CBE|Core] Activating mod WR-CBE|Core
+2014-11-12 06:19:43 [FINE] [WR-CBE|RedPower] Enabling mod WR-CBE|RedPower
+2014-11-12 06:19:43 [FINE] [WR-CBE|RedPower] Mod Logging channel WR-CBE|RedPower configured at default level.
+2014-11-12 06:19:43 [INFO] [WR-CBE|RedPower] Activating mod WR-CBE|RedPower
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Verifying mod requirements are satisfied
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] All mod requirements are satisfied
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Sorting mods into an ordered list
+2014-11-12 06:19:43 [FINER] [ForgeModLoader] Mod sorting completed successfully
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] Mod sorting data
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	BukkitForge(BukkitForge:Unknown): BukkitForge-1.4.7-257.jar ()
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	BlockBreak(Block Break Event:1.4.6-0): BukkitForge-1.4.7-257.jar ()
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	ChickenChunks(ChickenChunks:1.3.1.0): ChickenChunks.jar (required-after:Forge@[6.4.1.413,))
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerCore(RedPower:2.0pr6): redpowercore.zip ()
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerBase(RP Base:2.0pr6): redpowercore.zip (required-after:RedPowerCore)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerMachine(RP Machine:2.0pr6): redpowermechanical.zip (required-after:RedPowerBase)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerCompat(RP Compat:2.0pr6): redpowercompat.zip (required-after:RedPowerBase;required-after:RedPowerMachine;after:BuildCraftBase)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerWiring(RP Wiring:2.0pr6): redpowerdigital.zip (required-after:RedPowerBase)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerLogic(RP Logic:2.0pr6): redpowerdigital.zip (required-after:RedPowerBase)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerLighting(RP Lighting:2.0pr6): redpowerdigital.zip (required-after:RedPowerBase)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerWorld(RP World:2.0pr6): redpowermechanical.zip (required-after:RedPowerBase)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	RedPowerControl(RP Control:2.0pr6): redpowermechanical.zip (required-after:RedPowerBase)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	WR-CBE|Core(WR-CBE Core:1.3.2.8): wirelessredstonecore.jar ()
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	WR-CBE|Addons(WR-CBE Addons:1.3.2.8): wirelessredstoneaddons.jar (required-after:WR-CBE|Core)
+2014-11-12 06:19:43 [FINE] [ForgeModLoader] 	WR-CBE|RedPower(WR-CBE RedPower:1.3.2.8): wirelessredstoneredpower.jar (required-after:WR-CBE|Core;required-after:RedPowerLogic)
+2014-11-12 06:19:43 [FINEST] [mcp] Sending event FMLConstructionEvent to mod mcp
+2014-11-12 06:19:43 [FINEST] [mcp] Sent event FMLConstructionEvent to mod mcp
+2014-11-12 06:19:43 [FINEST] [FML] Sending event FMLConstructionEvent to mod FML
+2014-11-12 06:19:43 [FINEST] [FML] Sent event FMLConstructionEvent to mod FML
+2014-11-12 06:19:43 [FINEST] [Forge] Sending event FMLConstructionEvent to mod Forge
+2014-11-12 06:19:43 [FINEST] [Forge] Sent event FMLConstructionEvent to mod Forge
+2014-11-12 06:19:43 [FINEST] [CodeChickenCore] Sending event FMLConstructionEvent to mod CodeChickenCore
+2014-11-12 06:19:43 [FINEST] [CodeChickenCore] Sent event FMLConstructionEvent to mod CodeChickenCore
+2014-11-12 06:19:43 [FINEST] [BukkitForge] Sending event FMLConstructionEvent to mod BukkitForge
+2014-11-12 06:19:43 [FINEST] [ForgeModLoader] Testing mod BukkitForge to verify it accepts its own version in a remote connection
+2014-11-12 06:19:43 [FINEST] [ForgeModLoader] The mod BukkitForge accepts its own version (Unknown)
+2014-11-12 06:19:43 [WARNING] [ForgeModLoader] The mod id BukkitForge attempted to register a packet handler without specifying channels for it
+2014-11-12 06:19:44 [INFO] [STDOUT] Found target method in NetServerHandler: a(Lfc;)V
+2014-11-12 06:19:44 [INFO] [STDOUT] Found target method: a(Leb;)V! Inserting code...
+2014-11-12 06:19:44 [INFO] [STDOUT] Transforming iv using keepcalm.mods.bukkit.asm.replacements.NetServerHandler_BukkitForge !test!
+2014-11-12 06:19:44 [SEVERE] [Minecraft] BukkitForge plugins may misbehave when using the gui! Run the server with 'nogui'!
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into BukkitForge
+2014-11-12 06:19:44 [FINEST] [BukkitForge] Sent event FMLConstructionEvent to mod BukkitForge
+2014-11-12 06:19:44 [FINEST] [BlockBreak] Sending event FMLConstructionEvent to mod BlockBreak
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into BlockBreak
+2014-11-12 06:19:44 [FINEST] [BlockBreak] Sent event FMLConstructionEvent to mod BlockBreak
+2014-11-12 06:19:44 [FINEST] [ChickenChunks] Sending event FMLConstructionEvent to mod ChickenChunks
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod ChickenChunks to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod ChickenChunks accepts its own version (1.3.1.0)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into ChickenChunks
+2014-11-12 06:19:44 [FINEST] [ChickenChunks] Sent event FMLConstructionEvent to mod ChickenChunks
+2014-11-12 06:19:44 [FINEST] [RedPowerCore] Sending event FMLConstructionEvent to mod RedPowerCore
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerCore to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerCore accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerCore
+2014-11-12 06:19:44 [FINEST] [RedPowerCore] Sent event FMLConstructionEvent to mod RedPowerCore
+2014-11-12 06:19:44 [FINEST] [RedPowerBase] Sending event FMLConstructionEvent to mod RedPowerBase
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerBase to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerBase accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerBase
+2014-11-12 06:19:44 [FINEST] [RedPowerBase] Sent event FMLConstructionEvent to mod RedPowerBase
+2014-11-12 06:19:44 [FINEST] [RedPowerMachine] Sending event FMLConstructionEvent to mod RedPowerMachine
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerMachine to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerMachine accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerMachine
+2014-11-12 06:19:44 [FINEST] [RedPowerMachine] Sent event FMLConstructionEvent to mod RedPowerMachine
+2014-11-12 06:19:44 [FINEST] [RedPowerCompat] Sending event FMLConstructionEvent to mod RedPowerCompat
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerCompat to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerCompat accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerCompat
+2014-11-12 06:19:44 [FINEST] [RedPowerCompat] Sent event FMLConstructionEvent to mod RedPowerCompat
+2014-11-12 06:19:44 [FINEST] [RedPowerWiring] Sending event FMLConstructionEvent to mod RedPowerWiring
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerWiring to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerWiring accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerWiring
+2014-11-12 06:19:44 [FINEST] [RedPowerWiring] Sent event FMLConstructionEvent to mod RedPowerWiring
+2014-11-12 06:19:44 [FINEST] [RedPowerLogic] Sending event FMLConstructionEvent to mod RedPowerLogic
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerLogic to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerLogic accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerLogic
+2014-11-12 06:19:44 [FINEST] [RedPowerLogic] Sent event FMLConstructionEvent to mod RedPowerLogic
+2014-11-12 06:19:44 [FINEST] [RedPowerLighting] Sending event FMLConstructionEvent to mod RedPowerLighting
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerLighting to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerLighting accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerLighting
+2014-11-12 06:19:44 [FINEST] [RedPowerLighting] Sent event FMLConstructionEvent to mod RedPowerLighting
+2014-11-12 06:19:44 [FINEST] [RedPowerWorld] Sending event FMLConstructionEvent to mod RedPowerWorld
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerWorld to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerWorld accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerWorld
+2014-11-12 06:19:44 [FINEST] [RedPowerWorld] Sent event FMLConstructionEvent to mod RedPowerWorld
+2014-11-12 06:19:44 [FINEST] [RedPowerControl] Sending event FMLConstructionEvent to mod RedPowerControl
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod RedPowerControl to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod RedPowerControl accepts its own version (2.0pr6)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into RedPowerControl
+2014-11-12 06:19:44 [FINEST] [RedPowerControl] Sent event FMLConstructionEvent to mod RedPowerControl
+2014-11-12 06:19:44 [FINEST] [WR-CBE|Core] Sending event FMLConstructionEvent to mod WR-CBE|Core
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod WR-CBE|Core to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod WR-CBE|Core accepts its own version (1.3.2.8)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into WR-CBE|Core
+2014-11-12 06:19:44 [FINEST] [WR-CBE|Core] Sent event FMLConstructionEvent to mod WR-CBE|Core
+2014-11-12 06:19:44 [FINEST] [WR-CBE|Addons] Sending event FMLConstructionEvent to mod WR-CBE|Addons
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod WR-CBE|Addons to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod WR-CBE|Addons accepts its own version (1.3.2.8)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into WR-CBE|Addons
+2014-11-12 06:19:44 [FINEST] [WR-CBE|Addons] Sent event FMLConstructionEvent to mod WR-CBE|Addons
+2014-11-12 06:19:44 [FINEST] [WR-CBE|RedPower] Sending event FMLConstructionEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] Testing mod WR-CBE|RedPower to verify it accepts its own version in a remote connection
+2014-11-12 06:19:44 [FINEST] [ForgeModLoader] The mod WR-CBE|RedPower accepts its own version (1.3.2.8)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into WR-CBE|RedPower
+2014-11-12 06:19:44 [FINEST] [WR-CBE|RedPower] Sent event FMLConstructionEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] Mod signature data
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	mcp(Minecraft Coder Pack:7.26a): minecraft.jar (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	FML(Forge Mod Loader:4.7.35.556): coremods (de4cf8a3f3bc15635810044c39240bf96804ea7d)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	Forge(Minecraft Forge:6.6.2.534): coremods (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	CodeChickenCore(CodeChicken Core:0.7.3): coremods (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	BukkitForge(BukkitForge:Unknown): BukkitForge-1.4.7-257.jar (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	BlockBreak(Block Break Event:1.4.6-0): BukkitForge-1.4.7-257.jar (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	ChickenChunks(ChickenChunks:1.3.1.0): ChickenChunks.jar (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerCore(RedPower:2.0pr6): redpowercore.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerBase(RP Base:2.0pr6): redpowercore.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerMachine(RP Machine:2.0pr6): redpowermechanical.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerCompat(RP Compat:2.0pr6): redpowercompat.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerWiring(RP Wiring:2.0pr6): redpowerdigital.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerLogic(RP Logic:2.0pr6): redpowerdigital.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerLighting(RP Lighting:2.0pr6): redpowerdigital.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerWorld(RP World:2.0pr6): redpowermechanical.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	RedPowerControl(RP Control:2.0pr6): redpowermechanical.zip (28f7f8a775e597088f3a418ea29290b6a1d23c7b)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	WR-CBE|Core(WR-CBE Core:1.3.2.8): wirelessredstonecore.jar (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	WR-CBE|Addons(WR-CBE Addons:1.3.2.8): wirelessredstoneaddons.jar (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINE] [ForgeModLoader] 	WR-CBE|RedPower(WR-CBE RedPower:1.3.2.8): wirelessredstoneredpower.jar (NO VALID CERTIFICATE FOUND)
+2014-11-12 06:19:44 [FINEST] [mcp] Sending event FMLPreInitializationEvent to mod mcp
+2014-11-12 06:19:44 [FINEST] [mcp] Sent event FMLPreInitializationEvent to mod mcp
+2014-11-12 06:19:44 [FINEST] [FML] Sending event FMLPreInitializationEvent to mod FML
+2014-11-12 06:19:44 [FINEST] [FML] Sent event FMLPreInitializationEvent to mod FML
+2014-11-12 06:19:44 [FINEST] [Forge] Sending event FMLPreInitializationEvent to mod Forge
+2014-11-12 06:19:44 [INFO] [ForgeModLoader] Configured a dormant chunk cache size of 0
+2014-11-12 06:19:44 [FINEST] [Forge] Sent event FMLPreInitializationEvent to mod Forge
+2014-11-12 06:19:44 [FINEST] [CodeChickenCore] Sending event FMLPreInitializationEvent to mod CodeChickenCore
+2014-11-12 06:19:44 [FINEST] [CodeChickenCore] Sent event FMLPreInitializationEvent to mod CodeChickenCore
+2014-11-12 06:19:44 [FINEST] [BukkitForge] Sending event FMLPreInitializationEvent to mod BukkitForge
+2014-11-12 06:19:44 [INFO] [BukkitForge] Initializing configuration...
+2014-11-12 06:19:44 [INFO] [BukkitForge] Set UUID to 1408292799951253244906-1.4.7
+2014-11-12 06:19:44 [FINEST] [BukkitForge] Sent event FMLPreInitializationEvent to mod BukkitForge
+2014-11-12 06:19:44 [FINEST] [BlockBreak] Sending event FMLPreInitializationEvent to mod BlockBreak
+2014-11-12 06:19:44 [FINEST] [BlockBreak] Sent event FMLPreInitializationEvent to mod BlockBreak
+2014-11-12 06:19:44 [FINEST] [ChickenChunks] Sending event FMLPreInitializationEvent to mod ChickenChunks
+2014-11-12 06:19:44 [FINEST] [ChickenChunks] Sent event FMLPreInitializationEvent to mod ChickenChunks
+2014-11-12 06:19:44 [FINEST] [RedPowerCore] Sending event FMLPreInitializationEvent to mod RedPowerCore
+2014-11-12 06:19:44 [FINEST] [RedPowerCore] Sent event FMLPreInitializationEvent to mod RedPowerCore
+2014-11-12 06:19:44 [FINEST] [RedPowerBase] Sending event FMLPreInitializationEvent to mod RedPowerBase
+2014-11-12 06:19:44 [FINEST] [RedPowerBase] Sent event FMLPreInitializationEvent to mod RedPowerBase
+2014-11-12 06:19:44 [FINEST] [RedPowerMachine] Sending event FMLPreInitializationEvent to mod RedPowerMachine
+2014-11-12 06:19:44 [FINEST] [RedPowerMachine] Sent event FMLPreInitializationEvent to mod RedPowerMachine
+2014-11-12 06:19:44 [FINEST] [RedPowerCompat] Sending event FMLPreInitializationEvent to mod RedPowerCompat
+2014-11-12 06:19:44 [FINEST] [RedPowerCompat] Sent event FMLPreInitializationEvent to mod RedPowerCompat
+2014-11-12 06:19:44 [FINEST] [RedPowerWiring] Sending event FMLPreInitializationEvent to mod RedPowerWiring
+2014-11-12 06:19:44 [FINEST] [RedPowerWiring] Sent event FMLPreInitializationEvent to mod RedPowerWiring
+2014-11-12 06:19:44 [FINEST] [RedPowerLogic] Sending event FMLPreInitializationEvent to mod RedPowerLogic
+2014-11-12 06:19:44 [FINEST] [RedPowerLogic] Sent event FMLPreInitializationEvent to mod RedPowerLogic
+2014-11-12 06:19:44 [FINEST] [RedPowerLighting] Sending event FMLPreInitializationEvent to mod RedPowerLighting
+2014-11-12 06:19:44 [FINEST] [RedPowerLighting] Sent event FMLPreInitializationEvent to mod RedPowerLighting
+2014-11-12 06:19:44 [FINEST] [RedPowerWorld] Sending event FMLPreInitializationEvent to mod RedPowerWorld
+2014-11-12 06:19:44 [FINEST] [RedPowerWorld] Sent event FMLPreInitializationEvent to mod RedPowerWorld
+2014-11-12 06:19:44 [FINEST] [RedPowerControl] Sending event FMLPreInitializationEvent to mod RedPowerControl
+2014-11-12 06:19:44 [FINEST] [RedPowerControl] Sent event FMLPreInitializationEvent to mod RedPowerControl
+2014-11-12 06:19:44 [FINEST] [WR-CBE|Core] Sending event FMLPreInitializationEvent to mod WR-CBE|Core
+2014-11-12 06:19:44 [FINEST] [WR-CBE|Core] Sent event FMLPreInitializationEvent to mod WR-CBE|Core
+2014-11-12 06:19:44 [FINEST] [WR-CBE|Addons] Sending event FMLPreInitializationEvent to mod WR-CBE|Addons
+2014-11-12 06:19:44 [FINEST] [WR-CBE|Addons] Sent event FMLPreInitializationEvent to mod WR-CBE|Addons
+2014-11-12 06:19:44 [FINEST] [WR-CBE|RedPower] Sending event FMLPreInitializationEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:44 [FINEST] [WR-CBE|RedPower] Sent event FMLPreInitializationEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:44 [INFO] [Minecraft] Loading properties
+2014-11-12 06:19:44 [INFO] [Minecraft] Default game type: CREATIVE
+2014-11-12 06:19:44 [INFO] [Minecraft] Generating keypair
+2014-11-12 06:19:44 [INFO] [Minecraft] Starting Minecraft server on *:25565
+2014-11-12 06:19:44 [WARNING] [Minecraft] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-11-12 06:19:44 [WARNING] [Minecraft] The server will make no attempt to authenticate usernames. Beware.
+2014-11-12 06:19:44 [WARNING] [Minecraft] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-11-12 06:19:44 [WARNING] [Minecraft] To change this, set "online-mode" to "true" in the server.properties file.
+2014-11-12 06:19:44 [FINEST] [mcp] Sending event FMLInitializationEvent to mod mcp
+2014-11-12 06:19:44 [FINEST] [mcp] Sent event FMLInitializationEvent to mod mcp
+2014-11-12 06:19:44 [FINEST] [FML] Sending event FMLInitializationEvent to mod FML
+2014-11-12 06:19:44 [FINEST] [FML] Sent event FMLInitializationEvent to mod FML
+2014-11-12 06:19:44 [FINEST] [Forge] Sending event FMLInitializationEvent to mod Forge
+2014-11-12 06:19:44 [FINEST] [Forge] Sent event FMLInitializationEvent to mod Forge
+2014-11-12 06:19:44 [FINEST] [CodeChickenCore] Sending event FMLInitializationEvent to mod CodeChickenCore
+2014-11-12 06:19:44 [FINEST] [CodeChickenCore] Sent event FMLInitializationEvent to mod CodeChickenCore
+2014-11-12 06:19:44 [FINEST] [BukkitForge] Sending event FMLInitializationEvent to mod BukkitForge
+2014-11-12 06:19:44 [INFO] [BukkitForge] Complete! Registering handlers...
+2014-11-12 06:19:44 [INFO] [STDOUT] Transforming EntitySheep...
+2014-11-12 06:19:44 [INFO] [STDOUT] Class name matched creeper...
+2014-11-12 06:19:44 [INFO] [STDOUT] Found insertion point! inserting code!
+2014-11-12 06:19:44 [INFO] [BukkitForge] Done!
+2014-11-12 06:19:44 [FINEST] [BukkitForge] Sent event FMLInitializationEvent to mod BukkitForge
+2014-11-12 06:19:44 [FINEST] [BlockBreak] Sending event FMLInitializationEvent to mod BlockBreak
+2014-11-12 06:19:44 [FINEST] [BlockBreak] Sent event FMLInitializationEvent to mod BlockBreak
+2014-11-12 06:19:44 [FINEST] [ChickenChunks] Sending event FMLInitializationEvent to mod ChickenChunks
+2014-11-12 06:19:44 [FINE] [fml.ItemTracker] Adding item codechicken.chunkloader.ItemChunkLoader(243) owned by ChickenChunks
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sent event FMLInitializationEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sending event FMLInitializationEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sent event FMLInitializationEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sending event FMLInitializationEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemParts(9257) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemParts(9258) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemParts(9259) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemParts(9265) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemDrawplate(9264) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemBag(9268) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemDyeIndigo(9260) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemTextured(9266) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemPlan(9267) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemMicro(750) owned by RedPowerBase
+2014-11-12 06:19:45 [INFO] [STDOUT] Fluid registration: Water
+2014-11-12 06:19:45 [INFO] [STDOUT] Fluid registration: Lava
+2014-11-12 06:19:45 [INFO] [STDOUT] Fluid registration: Lava
+2014-11-12 06:19:45 [INFO] [STDOUT] Fluid registration: Water
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item vq(752) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemExtended(751) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemHandsaw(9261) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemHandsaw(9262) owned by RedPowerBase
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemScrewdriver(9263) owned by RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sent event FMLInitializationEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sending event FMLInitializationEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.machine.ItemVoltmeter(9334) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemTextured(9335) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.machine.ItemBattery(9337) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.machine.ItemSonicDriver(9336) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.machine.ItemWindmill(9340) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.machine.ItemWindmill(9341) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemParts(9339) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemExtended(763) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemExtended(766) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.machine.ItemMachinePanel(764) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemExtended(765) owned by RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sent event FMLInitializationEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sending event FMLInitializationEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.compat.ItemMachineCompat(767) owned by RedPowerCompat
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemParts(9343) owned by RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sent event FMLInitializationEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sending event FMLInitializationEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sent event FMLInitializationEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sending event FMLInitializationEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemParts(9269) owned by RedPowerLogic
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.logic.ItemLogic(753) owned by RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sent event FMLInitializationEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sending event FMLInitializationEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item vq(756) owned by RedPowerLighting
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.lighting.ItemLamp(757) owned by RedPowerLighting
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.lighting.ItemLamp(758) owned by RedPowerLighting
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item vq(759) owned by RedPowerLighting
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.lighting.ItemShapedLamp(768) owned by RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sent event FMLInitializationEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sending event FMLInitializationEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomStone(244) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomOre(242) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemStorage(754) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomFlower(241) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomSeeds(9296) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item vq(255) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item vq(245) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomPickaxe(9287) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomPickaxe(9288) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomPickaxe(9289) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomShovel(9284) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomShovel(9285) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomShovel(9286) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomAxe(9290) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomAxe(9291) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomAxe(9292) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomSword(9281) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomSword(9282) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomSword(9283) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemAthame(9297) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomHoe(9293) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomHoe(9294) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemCustomHoe(9295) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSickle(9273) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSickle(9274) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSickle(9275) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSickle(9276) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSickle(9277) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSickle(9278) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSickle(9279) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSickle(9280) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemHandsaw(9270) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemHandsaw(9271) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.base.ItemHandsaw(9272) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemWoolCard(9298) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemTextured(9317) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemTextured(9300) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9301) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9318) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9302) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9319) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9303) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9320) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9304) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9321) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9305) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9322) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9306) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9323) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9307) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9324) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9308) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9325) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9309) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9326) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9310) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9327) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9311) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9328) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9312) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9329) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9313) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9330) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9314) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9331) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9315) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9332) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintCan(9316) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemPaintBrush(9333) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.world.ItemSeedBag(9299) owned by RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sent event FMLInitializationEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sending event FMLInitializationEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.control.ItemBackplane(760) owned by RedPowerControl
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemExtended(761) owned by RedPowerControl
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.core.ItemExtended(762) owned by RedPowerControl
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item com.eloraam.redpower.control.ItemDisk(9342) owned by RedPowerControl
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sent event FMLInitializationEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sending event FMLInitializationEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.core.ItemCustomTexture(6406) owned by WR-CBE|Core
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.core.ItemCustomTexture(6407) owned by WR-CBE|Core
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.core.ItemCustomTexture(6408) owned by WR-CBE|Core
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.core.ItemCustomTexture(6409) owned by WR-CBE|Core
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.core.ItemCustomTexture(6410) owned by WR-CBE|Core
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.core.ItemCustomTexture(6411) owned by WR-CBE|Core
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.core.ItemCustomTexture(6412) owned by WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sent event FMLInitializationEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sending event FMLInitializationEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.wirelessredstone.addons.ItemWirelessTriangulator(6357) owned by WR-CBE|Addons
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.wirelessredstone.addons.ItemWirelessRemote(6358) owned by WR-CBE|Addons
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.wirelessredstone.addons.ItemWirelessSniffer(6359) owned by WR-CBE|Addons
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.wirelessredstone.addons.ItemWirelessMap(6360) owned by WR-CBE|Addons
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.wirelessredstone.addons.ItemWirelessTracker(6361) owned by WR-CBE|Addons
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.wirelessredstone.addons.ItemREP(6362) owned by WR-CBE|Addons
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.wirelessredstone.addons.ItemPrivateSniffer(6363) owned by WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sent event FMLInitializationEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sending event FMLInitializationEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] Adding item codechicken.wirelessredstone.redpower.ItemWirelessTile(240) owned by WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sent event FMLInitializationEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod mcp
+2014-11-12 06:19:45 [FINEST] [mcp] Sending event IMCEvent to mod mcp
+2014-11-12 06:19:45 [FINEST] [mcp] Sent event IMCEvent to mod mcp
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod FML
+2014-11-12 06:19:45 [FINEST] [FML] Sending event IMCEvent to mod FML
+2014-11-12 06:19:45 [FINEST] [FML] Sent event IMCEvent to mod FML
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod Forge
+2014-11-12 06:19:45 [FINEST] [Forge] Sending event IMCEvent to mod Forge
+2014-11-12 06:19:45 [FINEST] [Forge] Sent event IMCEvent to mod Forge
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [CodeChickenCore] Sending event IMCEvent to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [CodeChickenCore] Sent event IMCEvent to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [BukkitForge] Sending event IMCEvent to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [BukkitForge] Sent event IMCEvent to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [BlockBreak] Sending event IMCEvent to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [BlockBreak] Sent event IMCEvent to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sending event IMCEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sent event IMCEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sending event IMCEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sent event IMCEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sending event IMCEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sent event IMCEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sending event IMCEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sent event IMCEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sending event IMCEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sent event IMCEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sending event IMCEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sent event IMCEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sending event IMCEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sent event IMCEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sending event IMCEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sent event IMCEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sending event IMCEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sent event IMCEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sending event IMCEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sent event IMCEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sending event IMCEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sent event IMCEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sending event IMCEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sent event IMCEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sending event IMCEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sent event IMCEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [mcp] Sending event FMLPostInitializationEvent to mod mcp
+2014-11-12 06:19:45 [FINEST] [mcp] Sent event FMLPostInitializationEvent to mod mcp
+2014-11-12 06:19:45 [FINEST] [FML] Sending event FMLPostInitializationEvent to mod FML
+2014-11-12 06:19:45 [FINEST] [FML] Sent event FMLPostInitializationEvent to mod FML
+2014-11-12 06:19:45 [FINEST] [Forge] Sending event FMLPostInitializationEvent to mod Forge
+2014-11-12 06:19:45 [FINEST] [Forge] Sent event FMLPostInitializationEvent to mod Forge
+2014-11-12 06:19:45 [FINEST] [CodeChickenCore] Sending event FMLPostInitializationEvent to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [CodeChickenCore] Sent event FMLPostInitializationEvent to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [BukkitForge] Sending event FMLPostInitializationEvent to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [BukkitForge] Sent event FMLPostInitializationEvent to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [BlockBreak] Sending event FMLPostInitializationEvent to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [BlockBreak] Sent event FMLPostInitializationEvent to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sending event FMLPostInitializationEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sent event FMLPostInitializationEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sending event FMLPostInitializationEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sent event FMLPostInitializationEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sending event FMLPostInitializationEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sent event FMLPostInitializationEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sending event FMLPostInitializationEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sent event FMLPostInitializationEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sending event FMLPostInitializationEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sent event FMLPostInitializationEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sending event FMLPostInitializationEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sent event FMLPostInitializationEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sending event FMLPostInitializationEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sent event FMLPostInitializationEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sending event FMLPostInitializationEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sent event FMLPostInitializationEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sending event FMLPostInitializationEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sent event FMLPostInitializationEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sending event FMLPostInitializationEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sent event FMLPostInitializationEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sending event FMLPostInitializationEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sent event FMLPostInitializationEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sending event FMLPostInitializationEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sent event FMLPostInitializationEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sending event FMLPostInitializationEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sent event FMLPostInitializationEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [mcp] Sending event FMLLoadCompleteEvent to mod mcp
+2014-11-12 06:19:45 [FINEST] [mcp] Sent event FMLLoadCompleteEvent to mod mcp
+2014-11-12 06:19:45 [FINEST] [FML] Sending event FMLLoadCompleteEvent to mod FML
+2014-11-12 06:19:45 [FINEST] [FML] Sent event FMLLoadCompleteEvent to mod FML
+2014-11-12 06:19:45 [FINEST] [Forge] Sending event FMLLoadCompleteEvent to mod Forge
+2014-11-12 06:19:45 [FINEST] [Forge] Sent event FMLLoadCompleteEvent to mod Forge
+2014-11-12 06:19:45 [FINEST] [CodeChickenCore] Sending event FMLLoadCompleteEvent to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [CodeChickenCore] Sent event FMLLoadCompleteEvent to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [BukkitForge] Sending event FMLLoadCompleteEvent to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [BukkitForge] Sent event FMLLoadCompleteEvent to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [BlockBreak] Sending event FMLLoadCompleteEvent to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [BlockBreak] Sent event FMLLoadCompleteEvent to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sending event FMLLoadCompleteEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sent event FMLLoadCompleteEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sending event FMLLoadCompleteEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sent event FMLLoadCompleteEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sending event FMLLoadCompleteEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sent event FMLLoadCompleteEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sending event FMLLoadCompleteEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sent event FMLLoadCompleteEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sending event FMLLoadCompleteEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sent event FMLLoadCompleteEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sending event FMLLoadCompleteEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sent event FMLLoadCompleteEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sending event FMLLoadCompleteEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sent event FMLLoadCompleteEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sending event FMLLoadCompleteEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sent event FMLLoadCompleteEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sending event FMLLoadCompleteEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sent event FMLLoadCompleteEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sending event FMLLoadCompleteEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sent event FMLLoadCompleteEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sending event FMLLoadCompleteEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sent event FMLLoadCompleteEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sending event FMLLoadCompleteEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sent event FMLLoadCompleteEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sending event FMLLoadCompleteEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sent event FMLLoadCompleteEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [INFO] [ForgeModLoader] Forge Mod Loader has successfully loaded 19 mods
+2014-11-12 06:19:45 [FINEST] [mcp] Sending event FMLServerAboutToStartEvent to mod mcp
+2014-11-12 06:19:45 [FINEST] [mcp] Sent event FMLServerAboutToStartEvent to mod mcp
+2014-11-12 06:19:45 [FINEST] [FML] Sending event FMLServerAboutToStartEvent to mod FML
+2014-11-12 06:19:45 [FINEST] [FML] Sent event FMLServerAboutToStartEvent to mod FML
+2014-11-12 06:19:45 [FINEST] [Forge] Sending event FMLServerAboutToStartEvent to mod Forge
+2014-11-12 06:19:45 [FINEST] [Forge] Sent event FMLServerAboutToStartEvent to mod Forge
+2014-11-12 06:19:45 [FINEST] [CodeChickenCore] Sending event FMLServerAboutToStartEvent to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [CodeChickenCore] Sent event FMLServerAboutToStartEvent to mod CodeChickenCore
+2014-11-12 06:19:45 [FINEST] [BukkitForge] Sending event FMLServerAboutToStartEvent to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [BukkitForge] Sent event FMLServerAboutToStartEvent to mod BukkitForge
+2014-11-12 06:19:45 [FINEST] [BlockBreak] Sending event FMLServerAboutToStartEvent to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [BlockBreak] Sent event FMLServerAboutToStartEvent to mod BlockBreak
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sending event FMLServerAboutToStartEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [ChickenChunks] Sent event FMLServerAboutToStartEvent to mod ChickenChunks
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sending event FMLServerAboutToStartEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerCore] Sent event FMLServerAboutToStartEvent to mod RedPowerCore
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sending event FMLServerAboutToStartEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerBase] Sent event FMLServerAboutToStartEvent to mod RedPowerBase
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sending event FMLServerAboutToStartEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerMachine] Sent event FMLServerAboutToStartEvent to mod RedPowerMachine
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sending event FMLServerAboutToStartEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerCompat] Sent event FMLServerAboutToStartEvent to mod RedPowerCompat
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sending event FMLServerAboutToStartEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerWiring] Sent event FMLServerAboutToStartEvent to mod RedPowerWiring
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sending event FMLServerAboutToStartEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLogic] Sent event FMLServerAboutToStartEvent to mod RedPowerLogic
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sending event FMLServerAboutToStartEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerLighting] Sent event FMLServerAboutToStartEvent to mod RedPowerLighting
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sending event FMLServerAboutToStartEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerWorld] Sent event FMLServerAboutToStartEvent to mod RedPowerWorld
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sending event FMLServerAboutToStartEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [RedPowerControl] Sent event FMLServerAboutToStartEvent to mod RedPowerControl
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sending event FMLServerAboutToStartEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Core] Sent event FMLServerAboutToStartEvent to mod WR-CBE|Core
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sending event FMLServerAboutToStartEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|Addons] Sent event FMLServerAboutToStartEvent to mod WR-CBE|Addons
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sending event FMLServerAboutToStartEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [FINEST] [WR-CBE|RedPower] Sent event FMLServerAboutToStartEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:45 [INFO] [Minecraft] Preparing level "world"
+2014-11-12 06:19:45 [FINE] [fml.ItemTracker] The difference set is equal
+2014-11-12 06:19:45 [INFO] [STDOUT] Transforming ii using keepcalm.mods.bukkit.asm.replacements.EntityTracker_BukkitForge !test!
+2014-11-12 06:19:45 [INFO] [ForgeModLoader] Loading dimension 0 (world) (ho@3fbd1406)
+2014-11-12 06:19:45 [INFO] [ForgeModLoader] Loading dimension 1 (world) (ho@3fbd1406)
+2014-11-12 06:19:46 [INFO] [ForgeModLoader] Loading dimension -1 (world) (ho@3fbd1406)
+2014-11-12 06:19:46 [INFO] [Minecraft] Preparing start region for level 0
+2014-11-12 06:19:46 [INFO] [Minecraft] Done (1.025s)! For help, type "help" or "?"
+2014-11-12 06:19:46 [FINEST] [mcp] Sending event FMLServerStartingEvent to mod mcp
+2014-11-12 06:19:46 [FINEST] [mcp] Sent event FMLServerStartingEvent to mod mcp
+2014-11-12 06:19:46 [FINEST] [FML] Sending event FMLServerStartingEvent to mod FML
+2014-11-12 06:19:46 [FINEST] [FML] Sent event FMLServerStartingEvent to mod FML
+2014-11-12 06:19:46 [FINEST] [Forge] Sending event FMLServerStartingEvent to mod Forge
+2014-11-12 06:19:46 [FINEST] [Forge] Sent event FMLServerStartingEvent to mod Forge
+2014-11-12 06:19:46 [FINEST] [CodeChickenCore] Sending event FMLServerStartingEvent to mod CodeChickenCore
+2014-11-12 06:19:46 [FINEST] [CodeChickenCore] Sent event FMLServerStartingEvent to mod CodeChickenCore
+2014-11-12 06:19:46 [FINEST] [BukkitForge] Sending event FMLServerStartingEvent to mod BukkitForge
+2014-11-12 06:19:46 [FINEST] [BukkitForge] Sent event FMLServerStartingEvent to mod BukkitForge
+2014-11-12 06:19:46 [FINEST] [BlockBreak] Sending event FMLServerStartingEvent to mod BlockBreak
+2014-11-12 06:19:46 [FINEST] [BlockBreak] Sent event FMLServerStartingEvent to mod BlockBreak
+2014-11-12 06:19:46 [FINEST] [ChickenChunks] Sending event FMLServerStartingEvent to mod ChickenChunks
+2014-11-12 06:19:46 [FINEST] [ChickenChunks] Sent event FMLServerStartingEvent to mod ChickenChunks
+2014-11-12 06:19:46 [FINEST] [RedPowerCore] Sending event FMLServerStartingEvent to mod RedPowerCore
+2014-11-12 06:19:46 [FINEST] [RedPowerCore] Sent event FMLServerStartingEvent to mod RedPowerCore
+2014-11-12 06:19:46 [FINEST] [RedPowerBase] Sending event FMLServerStartingEvent to mod RedPowerBase
+2014-11-12 06:19:46 [FINEST] [RedPowerBase] Sent event FMLServerStartingEvent to mod RedPowerBase
+2014-11-12 06:19:46 [FINEST] [RedPowerMachine] Sending event FMLServerStartingEvent to mod RedPowerMachine
+2014-11-12 06:19:46 [FINEST] [RedPowerMachine] Sent event FMLServerStartingEvent to mod RedPowerMachine
+2014-11-12 06:19:46 [FINEST] [RedPowerCompat] Sending event FMLServerStartingEvent to mod RedPowerCompat
+2014-11-12 06:19:46 [FINEST] [RedPowerCompat] Sent event FMLServerStartingEvent to mod RedPowerCompat
+2014-11-12 06:19:46 [FINEST] [RedPowerWiring] Sending event FMLServerStartingEvent to mod RedPowerWiring
+2014-11-12 06:19:46 [FINEST] [RedPowerWiring] Sent event FMLServerStartingEvent to mod RedPowerWiring
+2014-11-12 06:19:46 [FINEST] [RedPowerLogic] Sending event FMLServerStartingEvent to mod RedPowerLogic
+2014-11-12 06:19:46 [FINEST] [RedPowerLogic] Sent event FMLServerStartingEvent to mod RedPowerLogic
+2014-11-12 06:19:46 [FINEST] [RedPowerLighting] Sending event FMLServerStartingEvent to mod RedPowerLighting
+2014-11-12 06:19:46 [FINEST] [RedPowerLighting] Sent event FMLServerStartingEvent to mod RedPowerLighting
+2014-11-12 06:19:46 [FINEST] [RedPowerWorld] Sending event FMLServerStartingEvent to mod RedPowerWorld
+2014-11-12 06:19:46 [FINEST] [RedPowerWorld] Sent event FMLServerStartingEvent to mod RedPowerWorld
+2014-11-12 06:19:46 [FINEST] [RedPowerControl] Sending event FMLServerStartingEvent to mod RedPowerControl
+2014-11-12 06:19:46 [FINEST] [RedPowerControl] Sent event FMLServerStartingEvent to mod RedPowerControl
+2014-11-12 06:19:46 [FINEST] [WR-CBE|Core] Sending event FMLServerStartingEvent to mod WR-CBE|Core
+2014-11-12 06:19:46 [FINEST] [WR-CBE|Core] Sent event FMLServerStartingEvent to mod WR-CBE|Core
+2014-11-12 06:19:46 [FINEST] [WR-CBE|Addons] Sending event FMLServerStartingEvent to mod WR-CBE|Addons
+2014-11-12 06:19:46 [FINEST] [WR-CBE|Addons] Sent event FMLServerStartingEvent to mod WR-CBE|Addons
+2014-11-12 06:19:46 [FINEST] [WR-CBE|RedPower] Sending event FMLServerStartingEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:46 [FINEST] [WR-CBE|RedPower] Sent event FMLServerStartingEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:46 [FINEST] [mcp] Sending event FMLServerStartedEvent to mod mcp
+2014-11-12 06:19:46 [FINEST] [mcp] Sent event FMLServerStartedEvent to mod mcp
+2014-11-12 06:19:46 [FINEST] [FML] Sending event FMLServerStartedEvent to mod FML
+2014-11-12 06:19:46 [FINEST] [FML] Sent event FMLServerStartedEvent to mod FML
+2014-11-12 06:19:46 [FINEST] [Forge] Sending event FMLServerStartedEvent to mod Forge
+2014-11-12 06:19:46 [FINEST] [Forge] Sent event FMLServerStartedEvent to mod Forge
+2014-11-12 06:19:46 [FINEST] [CodeChickenCore] Sending event FMLServerStartedEvent to mod CodeChickenCore
+2014-11-12 06:19:46 [FINEST] [CodeChickenCore] Sent event FMLServerStartedEvent to mod CodeChickenCore
+2014-11-12 06:19:46 [FINEST] [BukkitForge] Sending event FMLServerStartedEvent to mod BukkitForge
+2014-11-12 06:19:46 [INFO] [STDOUT] iq['[Mod]'/0, l='world', x=-266.50, y=56.62, z=759.50]
+2014-11-12 06:19:46 [FINEST] [BukkitForge] Sent event FMLServerStartedEvent to mod BukkitForge
+2014-11-12 06:19:46 [FINEST] [BlockBreak] Sending event FMLServerStartedEvent to mod BlockBreak
+2014-11-12 06:19:46 [FINEST] [BlockBreak] Sent event FMLServerStartedEvent to mod BlockBreak
+2014-11-12 06:19:46 [FINEST] [ChickenChunks] Sending event FMLServerStartedEvent to mod ChickenChunks
+2014-11-12 06:19:46 [FINEST] [ChickenChunks] Sent event FMLServerStartedEvent to mod ChickenChunks
+2014-11-12 06:19:46 [FINEST] [RedPowerCore] Sending event FMLServerStartedEvent to mod RedPowerCore
+2014-11-12 06:19:46 [FINEST] [RedPowerCore] Sent event FMLServerStartedEvent to mod RedPowerCore
+2014-11-12 06:19:46 [FINEST] [RedPowerBase] Sending event FMLServerStartedEvent to mod RedPowerBase
+2014-11-12 06:19:46 [FINEST] [RedPowerBase] Sent event FMLServerStartedEvent to mod RedPowerBase
+2014-11-12 06:19:46 [FINEST] [RedPowerMachine] Sending event FMLServerStartedEvent to mod RedPowerMachine
+2014-11-12 06:19:46 [FINEST] [RedPowerMachine] Sent event FMLServerStartedEvent to mod RedPowerMachine
+2014-11-12 06:19:46 [FINEST] [RedPowerCompat] Sending event FMLServerStartedEvent to mod RedPowerCompat
+2014-11-12 06:19:46 [FINEST] [RedPowerCompat] Sent event FMLServerStartedEvent to mod RedPowerCompat
+2014-11-12 06:19:46 [FINEST] [RedPowerWiring] Sending event FMLServerStartedEvent to mod RedPowerWiring
+2014-11-12 06:19:46 [FINEST] [RedPowerWiring] Sent event FMLServerStartedEvent to mod RedPowerWiring
+2014-11-12 06:19:46 [FINEST] [RedPowerLogic] Sending event FMLServerStartedEvent to mod RedPowerLogic
+2014-11-12 06:19:46 [FINEST] [RedPowerLogic] Sent event FMLServerStartedEvent to mod RedPowerLogic
+2014-11-12 06:19:46 [FINEST] [RedPowerLighting] Sending event FMLServerStartedEvent to mod RedPowerLighting
+2014-11-12 06:19:46 [FINEST] [RedPowerLighting] Sent event FMLServerStartedEvent to mod RedPowerLighting
+2014-11-12 06:19:46 [FINEST] [RedPowerWorld] Sending event FMLServerStartedEvent to mod RedPowerWorld
+2014-11-12 06:19:46 [FINEST] [RedPowerWorld] Sent event FMLServerStartedEvent to mod RedPowerWorld
+2014-11-12 06:19:46 [FINEST] [RedPowerControl] Sending event FMLServerStartedEvent to mod RedPowerControl
+2014-11-12 06:19:46 [FINEST] [RedPowerControl] Sent event FMLServerStartedEvent to mod RedPowerControl
+2014-11-12 06:19:46 [FINEST] [WR-CBE|Core] Sending event FMLServerStartedEvent to mod WR-CBE|Core
+2014-11-12 06:19:46 [FINEST] [WR-CBE|Core] Sent event FMLServerStartedEvent to mod WR-CBE|Core
+2014-11-12 06:19:46 [FINEST] [WR-CBE|Addons] Sending event FMLServerStartedEvent to mod WR-CBE|Addons
+2014-11-12 06:19:46 [FINEST] [WR-CBE|Addons] Sent event FMLServerStartedEvent to mod WR-CBE|Addons
+2014-11-12 06:19:46 [FINEST] [WR-CBE|RedPower] Sending event FMLServerStartedEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:46 [FINEST] [WR-CBE|RedPower] Sent event FMLServerStartedEvent to mod WR-CBE|RedPower
+2014-11-12 06:19:47 [INFO] [STDOUT] IS THE INSTANCE NULL? NO
+2014-11-12 06:19:47 [INFO] [BukkitForge] Starting BukkitForge null-null(CB-Version: git-Bukkit-1.4.5-R1.0-b3000jnks (Really: BukkitForge for MC 1.4.7)).
+2014-11-12 06:19:47 [INFO] [BukkitForge] This server is running BukkitForge version git-Bukkit-1.4.5-R1.0-b3000jnks (Really: BukkitForge for MC 1.4.7) (Implementing API version 1.4.7-R0.1)
+2014-11-12 06:19:47 [INFO] [BukkitForge] Plugins are being loaded...
+2014-11-12 06:19:47 [INFO] [STDOUT] Mapping loaded 2024 classes, 2184 fields, 3533 methods, flags 30
+2014-11-12 06:19:47 [INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin] [WorldEdit] Loading WorldEdit v5.5.1
+2014-11-12 06:19:47 [INFO] [BukkitForge] Loading PostWorld plugins...
+2014-11-12 06:19:47 [INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin] [WorldEdit] Enabling WorldEdit v5.5.1
+2014-11-12 06:19:47 [INFO] [BukkitForge] Going to load perms file: permissions.yml
+2014-11-12 06:19:47 [INFO] [BukkitForge] Server permissions file permissions.yml is empty, ignoring it
+2014-11-12 06:19:47 [INFO] [BukkitForge] Loaded plugins: 
+2014-11-12 06:19:47 [INFO] [BukkitForge] WorldEdit- Enabled: true
+2014-11-12 06:20:13 [INFO] [ForgeModLoader] Unloading dimension 1
+2014-11-12 17:44:49 [FINEST] [ForgeModLoader] Received valid FML login packet from /127.0.0.1:59308
+2014-11-12 17:44:49 [INFO] [Minecraft] User Nickpipitone connecting with mods [WR-CBE|Addons, RedPowerMachine, RedPowerWiring, RedPowerCore, ChickenChunks, RedPowerControl, RedPowerCompat, WR-CBE|Core, RedPowerLighting, RedPowerLogic, RedPowerBase, RedPowerWorld, WR-CBE|RedPower]
+2014-11-12 17:44:49 [INFO] [ForgeModLoader] User Nickpipitone connecting with mods [WR-CBE|Addons, RedPowerMachine, RedPowerWiring, RedPowerCore, ChickenChunks, RedPowerControl, RedPowerCompat, WR-CBE|Core, RedPowerLighting, RedPowerLogic, RedPowerBase, RedPowerWorld, WR-CBE|RedPower]
+2014-11-12 17:44:49 [INFO] [Minecraft] Nickpipitone[/127.0.0.1:59308] logged in with entity id 1 at (-200.76765995933727, 109.51700854435805, 729.815061687253)
+2014-11-12 20:38:08 [INFO] [STDERR] java.net.SocketException: Connection reset
+2014-11-12 20:38:08 [INFO] [STDERR] 	at java.net.SocketInputStream.read(Unknown Source)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at java.net.SocketInputStream.read(Unknown Source)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at java.io.FilterInputStream.read(Unknown Source)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at org.bouncycastle.crypto.io.CipherInputStream.nextChunk(Unknown Source)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at org.bouncycastle.crypto.io.CipherInputStream.read(Unknown Source)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at java.io.FilterInputStream.read(Unknown Source)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at ef.a(Packet.java:142)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at cg.i(TcpConnection.java:324)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at cg.c(TcpConnection.java:544)
+2014-11-12 20:38:08 [INFO] [STDERR] 	at ch.run(SourceFile:93)
+2014-11-12 20:38:08 [INFO] [Minecraft] Nickpipitone lost connection: disconnect.genericReason
+2014-11-12 23:39:08 [WARNING] [Minecraft] Can't keep up! Did the system time change, or is the server overloaded?
